@@ -2,13 +2,13 @@ import type { DayMenu, DiningHall, MealPeriodName, MenuData } from "./types";
 
 export const HALL_ORDER = [
   "rand",
-  "commons",
-  "kissam",
   "ebi",
   "roth",
-  "carmichael",
-  "pub",
   "zeppos",
+  "carmichael",
+  "kissam",
+  "commons",
+  "pub",
 ] as const;
 
 export const DEFAULT_HALL_ID = "rand";
