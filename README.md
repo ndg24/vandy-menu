@@ -45,7 +45,3 @@ Pushing to `main` auto-redeploys on Vercel.
 - `src/lib/types.ts` / `src/lib/menu.ts` — the `MenuData` schema and pure filtering helpers; `src/state/useMenuSelection.ts` holds the day/hall/meal selection state.
 - `src/components/` — one component per UI piece (`Header`, `*Selector`, `MenuSection`, `DishCard`).
 - Visual style follows `VandyMenuDesign.md` (monochrome + neon green accent, square corners, pixel/monospace type) — general architecture reasoning (component/state split) follows standard [React composition patterns](https://react.dev/learn/thinking-in-react), nothing bespoke.
-
-## Performance notes
-
-Not yet measured in production — update this once deployed.
