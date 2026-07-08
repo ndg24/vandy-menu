@@ -1,0 +1,301 @@
+{
+  "scrapedAt": "2026-07-08T00:10:00.000Z",
+  "halls": [
+    {
+      "id": "rand",
+      "name": "Rand",
+      "days": [
+        {
+          "date": "2026-07-07",
+          "weekday": "TUE",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Bacon & Chicken Sausage Link" }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Sweet Potato Sofrito" },
+                { "station": "GRILL", "dish": "Philly Cheesesteak" },
+                { "station": "PASTA", "dish": "Beef Meatballs" }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Tomato-Basil Sauced Chicken Thighs" },
+                { "station": "GRILL", "dish": "Fried Chicken Tenders & Portobello Philly Cheesesteak" },
+                { "station": "PASTA", "dish": "Beef Meatballs" },
+                { "station": "CRAFTED FLATBREAD PIZZA", "dish": "Cheese Flatbread" }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-08",
+          "weekday": "WED",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Bacon & Chicken Sausage Link" },
+                { "station": "GRILL", "dish": "Fried Chicken Tenders" }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Al Pastor" },
+                { "station": "GRILL", "dish": "Beef Burger Patty & Fried Chicken Tenders" },
+                { "station": "PASTA", "dish": "Chicken Pesto" }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Plant-Based Chipotle Chorizo" },
+                { "station": "GRILL", "dish": "BBQ Chicken Thighs" },
+                { "station": "PASTA", "dish": "Baked Lemon Rosemary Chicken" },
+                { "station": "CRAFTED FLATBREAD PIZZA", "dish": "Cheese Flatbread" }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-09",
+          "weekday": "THU",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "BEYOND Meat Sausage Patty & Pork Sausage Patty" }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Achiote Chicken" },
+                { "station": "GRILL", "dish": "BBQ Chicken Thighs" },
+                { "station": "PASTA", "dish": "Lemon Rosemary Chilled Chicken" }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Grilled Ancho-Lime Chicken" },
+                { "station": "GRILL", "dish": "Beef Burger Patty & Fried Chicken Tenders" },
+                { "station": "PASTA", "dish": "Baked Plant-Based Meatballs" },
+                { "station": "CRAFTED FLATBREAD PIZZA", "dish": "Cheese Flatbread" }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-10",
+          "weekday": "FRI",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Bacon & Chicken Sausage Link" }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Beef Taco Meat" },
+                { "station": "GRILL", "dish": "Beef Burger Patty & Fried Chicken Tenders" },
+                { "station": "PASTA", "dish": "Beef Meatballs" }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Chipotle Orange Chicken Thigh" },
+                { "station": "GRILL", "dish": "Portobello Sloppy Joe" },
+                { "station": "PASTA", "dish": "Cajun Baked Chicken" },
+                { "station": "CRAFTED FLATBREAD PIZZA", "dish": "Cheese Flatbread" }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-11",
+          "weekday": "SAT",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Bacon & Chicken Sausage Link" }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Plant-Based Chipotle Chorizo" },
+                { "station": "GRILL", "dish": "Boneless Chicken Wings" },
+                { "station": "PASTA", "dish": "Herbed Baked Chicken" }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                { "station": "CHEF'S TABLE", "dish": "Roasted Shrimp w/ Parmesan Garlic Butter" },
+                { "station": "GRILL", "dish": "Beyond Burger Patty" },
+                { "station": "PASTA", "dish": "Beef Meatballs" },
+                { "station": "CRAFTED FLATBREAD PIZZA", "dish": "Cheese Flatbread" }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-12",
+          "weekday": "SUN",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "BEYOND Meat Sausage Patty & Pork Sausage Patty" },
+                { "station": "GRILL", "dish": "Fried Chicken Tenders" }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Achiote Chicken" },
+                { "station": "GRILL", "dish": "Beef Burger Patty & Fried Chicken Tenders" },
+                { "station": "MEDITERRANEAN", "dish": "Grilled Chicken Breast" },
+                { "station": "PASTA", "dish": "Lemon Rosemary Chilled Chicken" }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Sweet Potato Sofrito" },
+                { "station": "GRILL", "dish": "Country Style Meatloaf" },
+                { "station": "PASTA", "dish": "Beef Meatballs" },
+                { "station": "CRAFTED FLATBREAD PIZZA", "dish": "Cheese Flatbread" }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-13",
+          "weekday": "MON",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "BEYOND Meat Sausage Patty & Pork Sausage Patty" }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "Beef Taco Meat" },
+                { "station": "GRILL", "dish": "Beef Burger Patty & Beyond Burger Patty" },
+                { "station": "PASTA", "dish": "Beef Meatballs" }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                { "station": "FRESH MEX", "dish": "BBQ Nachos" },
+                { "station": "GRILL", "dish": "Beef Burger Patty & Fried Chicken Tenders" },
+                { "station": "PASTA", "dish": "Pasta Baked Ziti w/ Beef" },
+                { "station": "CRAFTED FLATBREAD PIZZA", "dish": "Cheese Flatbread" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commons",
+      "name": "Commons",
+      "days": []
+    },
+    {
+      "id": "kissam",
+      "name": "Kissam",
+      "days": []
+    },
+    {
+      "id": "ebi",
+      "name": "EBI",
+      "days": []
+    },
+    {
+      "id": "roth",
+      "name": "Roth",
+      "days": []
+    },
+    {
+      "id": "carmichael",
+      "name": "Carmichael",
+      "days": []
+    },
+    {
+      "id": "pub",
+      "name": "Pub",
+      "days": []
+    },
+    {
+      "id": "zeppos",
+      "name": "Zeppos",
+      "days": [
+        {
+          "date": "2026-07-07",
+          "weekday": "TUE",
+          "meals": [
+            {
+              "period": "DINNER",
+              "dishes": [
+                { "station": "LANGUAGE TABLE", "dish": "Chicken Fried Tofu" }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-08",
+          "weekday": "WED",
+          "meals": [
+            {
+              "period": "DINNER",
+              "dishes": [
+                { "station": "LANGUAGE TABLE", "dish": "Beef Bulgogi" }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-09",
+          "weekday": "THU",
+          "meals": [
+            {
+              "period": "DINNER",
+              "dishes": [
+                { "station": "LANGUAGE TABLE", "dish": "Tandoori Chicken" }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-12",
+          "weekday": "SUN",
+          "meals": [
+            {
+              "period": "DINNER",
+              "dishes": [
+                { "station": "GRILL", "dish": "Beef Burger Patty" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
