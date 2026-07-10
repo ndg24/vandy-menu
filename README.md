@@ -1,22 +1,52 @@
 # Vandy Menu
 
-A mobile-first PWA that shows "what's for lunch" at Vanderbilt's dining halls.
+> A mobile-first PWA showing the weekly dining hall menus at Vanderbilt, rendered entirely from a single committed JSON file with no backend or database.
 
-## What it does
+[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
 
-- Displays the weekly menu for all 8 Vanderbilt dining halls, filterable by day / hall / meal.
-- Read-only, no auth, no database - the whole app renders from one committed JSON file (`data/menu.json`).
-- Installable to a phone home screen via the PWA manifest (`public/manifest.json`, `public/icons/`).
-- A hall with no dishes for a given day/meal is genuinely closed (e.g. summer session) and shows "NO SERVICE" rather than being hidden.
+## Overview
 
-## Requirements
+Vanderbilt's dining hall menus live on NetNutrition, a slow, non-mobile site most students don't bother checking. Vandy Menu re-publishes that data as a fast, installable PWA: a manual, agent-driven scrape pulls the week's menus into `data/menu.json`, which is committed to git and bundled directly into a statically-rendered Next.js site. There's no backend, no database, and no client-side fetching — the entire app is data-in, static-site-out, and a "deploy" is just a new commit to that file.
+
+## Features
+
+- **8-hall weekly menu grid** — every Vanderbilt dining hall's full week (breakfast/lunch/dinner) renders from `data/menu.json` via pure filtering helpers in `src/lib/menu.ts`, with no runtime API calls.
+- **Day/hall/meal selection state** — `useMenuSelection` derives the list of available days from the data itself rather than hardcoding a week, defaults to today's date and the meal period computed from wall-clock time, and falls back to the first available day if today isn't in the dataset.
+- **Explicit "NO SERVICE" states** — a hall with no dishes for a given day/meal (e.g. summer session closures) renders as genuinely closed instead of being silently hidden, so the UI reflects real dining hall status rather than an absence of data.
+- **Installable PWA** — `public/manifest.json` and a generated icon set make it addable to a phone home screen as a standalone app ("DINING.SYS"), matching the site's terminal-inspired visual style.
+
+## Architecture & Design Decisions
+
+- **Static committed JSON over a database** — the app has no write path from end users; the only writes are a manual, agent-driven scrape you trigger yourself. With no concurrent writes to arbitrate, a database has nothing to protect. Next.js server components import `data/menu.json` directly at build time, so there's zero DB connection or query latency at runtime — the menu is just part of the deployed bundle, which fits Vercel's serverless model without a persistent connection to manage.
+- **Next.js App Router, static-ish rendering** — no client-side data fetching; the menu JSON is bundled at build time and a push to `main` triggers a full redeploy. This trades "always instantly fresh" for simplicity, which is a reasonable tradeoff given how infrequently the source data actually changes.
+- **Agent-driven scrape instead of a scheduled job** — refreshing `data/menu.json` means asking Claude Code to drive a browser against NetNutrition, rather than running a cron-scheduled scraper service. This avoids keeping an always-on ETL service running for something that only needs to happen about once a week.
+
+## Tech Stack
+
+| Layer | Tech |
+|---|---|
+| Frontend | Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS 4 |
+| Data | Static JSON (`data/menu.json`, `data/meta.json`), committed to git — no database |
+| Infra / Deploy | Vercel, auto-deploy on push to `main` |
+| Other | PWA manifest + icons, ESLint |
+
+## Getting Started
+
+### Prerequisites
 
 - Node.js v20+
 
-## How to run it
+### Installation
 
 ```bash
+git clone https://github.com/ndg24/vandy-menu.git
+cd vandy-menu
 npm install
+```
+
+### Run
+
+```bash
 npm run dev
 ```
 
@@ -38,14 +68,3 @@ git push
 ```
 
 Pushing to `main` auto-redeploys on Vercel.
-
-## Architecture & design choices
-
-- Next.js App Router, static-ish rendering — no client-side data fetching, the menu JSON is bundled at build time.
-- `src/lib/types.ts` / `src/lib/menu.ts` — the `MenuData` schema and pure filtering helpers; `src/state/useMenuSelection.ts` holds the day/hall/meal selection state.
-- `src/components/` — one component per UI piece (`Header`, `*Selector`, `MenuSection`, `DishCard`).
-- Visual style follows `VandyMenuDesign.md` (monochrome + neon green accent, square corners, pixel/monospace type) — general architecture reasoning (component/state split) follows standard [React composition patterns](https://react.dev/learn/thinking-in-react), nothing bespoke.
-
-## Performance notes
-
-Not yet measured in production — update this once deployed.
