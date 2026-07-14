@@ -2,8 +2,6 @@
 
 > A mobile-first PWA showing the weekly dining hall menus at Vanderbilt, rendered entirely from a single committed JSON file with no backend or database.
 
-[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
-
 ## Overview
 
 Vanderbilt's dining hall menus live on NetNutrition, a slow, non-mobile site most students don't bother checking. Vandy Menu re-publishes that data as a fast, installable PWA: a manual, agent-driven scrape pulls the week's menus into `data/menu.json`, which is committed to git and bundled directly into a statically-rendered Next.js site. There's no backend, no database, and no client-side fetching — the entire app is data-in, static-site-out, and a "deploy" is just a new commit to that file.
