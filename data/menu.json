@@ -1,297 +1,17 @@
 {
-  "scrapedAt": "2026-07-14T15:07:26.940Z",
+  "scrapedAt": "2026-07-28T00:29:00.000Z",
   "halls": [
     {
       "id": "rand",
       "name": "Rand",
       "days": [
         {
-          "date": "2026-07-14",
-          "weekday": "TUE",
+          "date": "2026-07-27",
+          "weekday": "MON",
           "meals": [
             {
               "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "PANCAKE BAR",
-                  "dish": "Pancakes"
-                },
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Bacon & BEYOND Meat Sausage Patty & Chicken Sausage Link & Scrambled Eggs"
-                },
-                {
-                  "station": "SOUTHERN BREAKFAST",
-                  "dish": "Bacon & BEYOND Meat Sausage Patty & Biscuit & Breakfast Gravy & Chicken Sausage Links & Scrambled Eggs & Tater Tots"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "OMELET STATION",
-                  "dish": "Omelet Station"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Sweet Potato Sofrito & Taco Seasoned Shredded Chicken"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Philly Cheesesteak & Portobello Philly Cheesesteak & Curly Fries"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Beef Meatballs"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "DELI",
-                  "dish": "Deli"
-                },
-                {
-                  "station": "SIMPLY MADE",
-                  "dish": "Simply Made"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Spiced Pulled Chicken & Sweet Potato Sofrito"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "3 Cheese Grilled Cheese & Fried Chicken Tenders & Curly Fries"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Beef Meatballs"
-                },
-                {
-                  "station": "CRAFTED FLATBREAD PIZZA",
-                  "dish": "Cheese Flatbread & Pepperoni Flatbread"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "SIMPLY MADE",
-                  "dish": "Simply Made"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-07-15",
-          "weekday": "WED",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Bacon & BEYOND Meat Sausage Patty & Chicken Sausage Link & Scrambled Eggs"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Fried Chicken Tenders & Hashbrown Patty"
-                },
-                {
-                  "station": "SOUTHERN BREAKFAST",
-                  "dish": "Bacon & BEYOND Meat Sausage Patty & Biscuit & Breakfast Gravy & Chicken Sausage Links & Crispy Cube Breakfast Potatoes & Scrambled Eggs"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "OMELET STATION",
-                  "dish": "Omelet Station"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Al Pastor & Sweet Potato Sofrito"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Beef Burger Patty & Beyond Burger Patty & Fried Chicken Tenders & Straight Cut Fries"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Chicken Pesto"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "DELI",
-                  "dish": "Deli"
-                },
-                {
-                  "station": "SIMPLY MADE",
-                  "dish": "Simply Made"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Tomato-Basil Sauced Chicken Thighs"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Beef Burger Patty & Beyond Burger Patty & Straight Cut Fries"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Baked Lemon Rosemary Chicken"
-                },
-                {
-                  "station": "CRAFTED FLATBREAD PIZZA",
-                  "dish": "Cheese Flatbread & Pepperoni Flatbread"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "SIMPLY MADE",
-                  "dish": "Simply Made"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-07-16",
-          "weekday": "THU",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "BEYOND Meat Sausage Patty & Chicken Sausage Link & Pork Sausage Patty & Scrambled Eggs"
-                },
-                {
-                  "station": "SOUTHERN BREAKFAST",
-                  "dish": "BEYOND Meat Sausage Patty & Biscuit & Breakfast Gravy & Chicken Sausage Links & Scrambled Eggs & Tater Tots"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "OMELET STATION",
-                  "dish": "Omelet Station"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Achiote Chicken & Plant-Based Chipotle Chorizo"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "BBQ Chicken Thighs & Crunchy Cabbage Slaw & Smokehouse Mac & Cheese & Straight Cut Fries"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Lemon Rosemary Chilled Chicken"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "DELI",
-                  "dish": "Deli"
-                },
-                {
-                  "station": "SIMPLY MADE",
-                  "dish": "Simply Made"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Grilled Ancho-Lime Chicken & Sweet Potato Sofrito"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Fried Chicken Tenders & Philly Cheesesteak & Portobello Philly Cheesesteak & Curly Fries"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Baked Plant-Based Meatballs & Swedish Meatballs"
-                },
-                {
-                  "station": "CRAFTED FLATBREAD PIZZA",
-                  "dish": "Cheese Flatbread & Pepperoni Flatbread"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "SIMPLY MADE",
-                  "dish": "Simply Made"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-07-17",
-          "weekday": "FRI",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Bacon & BEYOND Meat Sausage Patty & Chicken Sausage Link & Scrambled Eggs"
-                },
-                {
-                  "station": "SOUTHERN BREAKFAST",
-                  "dish": "Bacon & BEYOND Meat Sausage Patty & Biscuit & Breakfast Gravy & Chicken Sausage Links & Scrambled Eggs & Tater Tots"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "OMELET STATION",
-                  "dish": "Omelet Station"
-                }
-              ]
+              "dishes": []
             },
             {
               "period": "LUNCH",
@@ -301,24 +21,73 @@
                   "dish": "Beef Taco Meat & Sweet Potato Sofrito"
                 },
                 {
-                  "station": "GRILL",
-                  "dish": "Fried Chicken Tenders & Hot Dog & Straight Cut Fries"
+                  "station": "PASTA",
+                  "dish": "Beef Meatballs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-28",
+          "weekday": "TUE",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": []
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Jamaican Jerk Chicken & Sweet Potato Sofrito"
                 },
                 {
                   "station": "PASTA",
-                  "dish": "Beef Meatballs"
+                  "dish": "Chicken Pesto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-29",
+          "weekday": "WED",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": []
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Al Pastor & Mushroom Al Pastor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-07-30",
+          "weekday": "THU",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": []
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Plant-Based Chipotle Chorizo & Taco Seasoned Shredded Chicken"
                 },
                 {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "DELI",
-                  "dish": "Deli"
-                },
-                {
-                  "station": "SIMPLY MADE",
-                  "dish": "Simply Made"
+                  "station": "PASTA",
+                  "dish": "Lemon Rosemary Chilled Chicken"
                 }
               ]
             },
@@ -327,164 +96,71 @@
               "dishes": [
                 {
                   "station": "FRESH MEX",
-                  "dish": "Diced Steak"
-                },
-                {
-                  "station": "CHEF'S TABLE",
-                  "dish": "Roasted Shrimp w/ Parmesan Garlic Butter"
+                  "dish": "Sauteed Chorizo"
                 },
                 {
                   "station": "GRILL",
-                  "dish": "Fried Chicken Patty & Straight Cut Fries"
+                  "dish": "Fried Chicken Tenders & Philly Cheesesteak & Portobello Philly Cheesesteak"
                 },
                 {
                   "station": "PASTA",
-                  "dish": "Cajun Baked Chicken"
+                  "dish": "Cajun Chicken Tortellini"
                 },
                 {
                   "station": "CRAFTED FLATBREAD PIZZA",
                   "dish": "Cheese Flatbread & Pepperoni Flatbread"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "SIMPLY MADE",
-                  "dish": "Simply Made"
                 }
               ]
             }
           ]
         },
         {
-          "date": "2026-07-18",
+          "date": "2026-07-31",
+          "weekday": "FRI",
+          "meals": [
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Beef Taco Meat & Sweet Potato Sofrito"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Baked Spaghetti & Vegetable Baked Ziti"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-01",
           "weekday": "SAT",
           "meals": [
             {
               "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "PANCAKE BAR",
-                  "dish": "Pancakes"
-                },
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Bacon & BEYOND Meat Sausage Patty & Chicken Sausage Link & Scrambled Eggs"
-                },
-                {
-                  "station": "SOUTHERN BREAKFAST",
-                  "dish": "Bacon & BEYOND Meat Sausage Patty & Biscuit & Breakfast Gravy & Chicken Sausage Links & Scrambled Eggs & Tater Tots"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "OMELET STATION",
-                  "dish": "Omelet Station"
-                }
-              ]
+              "dishes": []
             },
             {
               "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Plant-Based Chipotle Chorizo & Sauteed Chorizo"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Boneless Chicken Wings & Cauliflower \"Wings\" & Tater Tots"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Herbed Baked Chicken"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "DELI",
-                  "dish": "Deli"
-                },
-                {
-                  "station": "SIMPLY MADE",
-                  "dish": "Simply Made"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Chipotle Orange Chicken Thigh & Sweet Potato Sofrito"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "BBQ Chicken Thighs & Creamed Corn w/ Fresh Thyme & Macaroni & Cheese & Roasted Herb Red Potatoes & Southern Green Beans"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Beef Meatballs"
-                },
-                {
-                  "station": "CRAFTED FLATBREAD PIZZA",
-                  "dish": "Cheese Flatbread & Pepperoni Flatbread"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "SIMPLY MADE",
-                  "dish": "Simply Made"
-                }
-              ]
+              "dishes": []
             }
           ]
         },
         {
-          "date": "2026-07-19",
+          "date": "2026-08-02",
           "weekday": "SUN",
           "meals": [
             {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "BEYOND Meat Sausage Patty & Chicken Sausage Link & Pork Sausage Patty & Scrambled Eggs"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Fried Chicken Tenders & Hashbrown Patty"
-                },
-                {
-                  "station": "SOUTHERN BREAKFAST",
-                  "dish": "BEYOND Meat Sausage Patty & Biscuit & Breakfast Gravy & Chicken Sausage Links & Crispy Cube Breakfast Potatoes & Scrambled Eggs"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "OMELET STATION",
-                  "dish": "Omelet Station"
-                }
-              ]
-            },
-            {
               "period": "DINNER",
               "dishes": [
                 {
                   "station": "FRESH MEX",
-                  "dish": "Plant-Based Chipotle Chorizo & Sauteed Chorizo"
+                  "dish": "Beef Taco Meat & Beyond Beef Taco Meat"
                 },
                 {
                   "station": "GRILL",
-                  "dish": "Portobello Sloppy Joe & Sloppy Joe Sandwich & Straight Cut Fries"
+                  "dish": "Chili Cheese Dog & Fried Chicken Tenders"
                 },
                 {
                   "station": "PASTA",
@@ -493,103 +169,6 @@
                 {
                   "station": "CRAFTED FLATBREAD PIZZA",
                   "dish": "Cheese Flatbread & Pepperoni Flatbread"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "SIMPLY MADE",
-                  "dish": "Simply Made"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-07-20",
-          "weekday": "MON",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "PANCAKE BAR",
-                  "dish": "Pancakes"
-                },
-                {
-                  "station": "FRESH MEX",
-                  "dish": "BEYOND Meat Sausage Patty & Chicken Sausage Link & Pork Sausage Patty & Scrambled Eggs"
-                },
-                {
-                  "station": "SOUTHERN BREAKFAST",
-                  "dish": "BEYOND Meat Sausage Patty & Biscuit & Breakfast Gravy & Chicken Sausage Links & Crispy Cube Breakfast Potatoes & Scrambled Eggs"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "OMELET STATION",
-                  "dish": "Omelet Station"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Sweet Potato Sofrito & Beef Barbacoa"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Beef Burger Patty & Fried Chicken Tenders & Beyond Burger Patty & Straight Cut Fries"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Beef Meatballs"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "DELI",
-                  "dish": "Deli"
-                },
-                {
-                  "station": "SIMPLY MADE",
-                  "dish": "Simply Made"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Beef Nachos & Beyond Beef Taco Meat"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Beef Burger Patty & Beyond Burger Patty & Fried Chicken Tenders & Straight Cut Fries"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Beef Meatballs"
-                },
-                {
-                  "station": "CRAFTED FLATBREAD PIZZA",
-                  "dish": "Cheese Flatbread & Pepperoni Flatbread"
-                },
-                {
-                  "station": "SALAD BAR",
-                  "dish": "Salad Bar"
-                },
-                {
-                  "station": "SIMPLY MADE",
-                  "dish": "Simply Made"
                 }
               ]
             }
