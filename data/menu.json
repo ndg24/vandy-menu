@@ -1,123 +1,18 @@
 {
-  "scrapedAt": "2026-07-28T00:29:00.000Z",
+  "scrapedAt": "2026-08-08T04:40:00.000Z",
   "halls": [
     {
       "id": "rand",
       "name": "Rand",
       "days": [
         {
-          "date": "2026-07-27",
-          "weekday": "MON",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": []
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Beef Taco Meat & Sweet Potato Sofrito"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Beef Meatballs"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-07-28",
-          "weekday": "TUE",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": []
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Jamaican Jerk Chicken & Sweet Potato Sofrito"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Chicken Pesto"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-07-29",
-          "weekday": "WED",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": []
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Al Pastor & Mushroom Al Pastor"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-07-30",
-          "weekday": "THU",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": []
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Plant-Based Chipotle Chorizo & Taco Seasoned Shredded Chicken"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Lemon Rosemary Chilled Chicken"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Sauteed Chorizo"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Fried Chicken Tenders & Philly Cheesesteak & Portobello Philly Cheesesteak"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Cajun Chicken Tortellini"
-                },
-                {
-                  "station": "CRAFTED FLATBREAD PIZZA",
-                  "dish": "Cheese Flatbread & Pepperoni Flatbread"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-07-31",
+          "date": "2026-08-07",
           "weekday": "FRI",
           "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": []
+            },
             {
               "period": "LUNCH",
               "dishes": [
@@ -134,8 +29,8 @@
           ]
         },
         {
-          "date": "2026-08-01",
-          "weekday": "SAT",
+          "date": "2026-08-10",
+          "weekday": "MON",
           "meals": [
             {
               "period": "BREAKFAST",
@@ -143,16 +38,6 @@
             },
             {
               "period": "LUNCH",
-              "dishes": []
-            }
-          ]
-        },
-        {
-          "date": "2026-08-02",
-          "weekday": "SUN",
-          "meals": [
-            {
-              "period": "DINNER",
               "dishes": [
                 {
                   "station": "FRESH MEX",
@@ -160,15 +45,126 @@
                 },
                 {
                   "station": "GRILL",
-                  "dish": "Chili Cheese Dog & Fried Chicken Tenders"
+                  "dish": "Beef Burger Patty & Fried Chicken Tenders & Beyond Burger Patty"
                 },
                 {
                   "station": "PASTA",
                   "dish": "Beef Meatballs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-11",
+          "weekday": "TUE",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": []
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Sweet Potato Sofrito & Taco Seasoned Shredded Chicken"
                 },
                 {
-                  "station": "CRAFTED FLATBREAD PIZZA",
-                  "dish": "Cheese Flatbread & Pepperoni Flatbread"
+                  "station": "GRILL",
+                  "dish": "Philly Cheesesteak & Portobello Philly Cheesesteak"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Beef Meatballs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-12",
+          "weekday": "WED",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": []
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Chipotle Marinated Shrimp & Sweet Potato Sofrito"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Beef Burger Patty & Beyond Burger Patty & Fried Chicken Tenders"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Chicken Pesto"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Plant-Based Chipotle Chorizo & Sauteed Chorizo"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Salisbury Steak"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Beef Meatballs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-13",
+          "weekday": "THU",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": []
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Jamaican Jerk Chicken"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "BBQ Chicken Thighs"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Lemon Rosemary Chilled Chicken"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Horseradish Crusted Cod & Tomato-Basil Sauced Chicken Thighs"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "BBQ Pulled Pork"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Baked Lemon Rosemary Chicken"
                 }
               ]
             }
@@ -194,7 +190,23 @@
     {
       "id": "roth",
       "name": "Roth",
-      "days": []
+      "days": [
+        {
+          "date": "2026-08-07",
+          "weekday": "FRI",
+          "meals": [
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "BAHN MI",
+                  "dish": "Pork Banh Mi & Portobello Banh Mi"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "carmichael",
