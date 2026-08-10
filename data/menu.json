@@ -1,33 +1,10 @@
 {
-  "scrapedAt": "2026-08-08T04:40:00.000Z",
+  "scrapedAt": "2026-08-10T01:55:00.000Z",
   "halls": [
     {
       "id": "rand",
       "name": "Rand",
       "days": [
-        {
-          "date": "2026-08-07",
-          "weekday": "FRI",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": []
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Beef Taco Meat & Sweet Potato Sofrito"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Baked Spaghetti & Vegetable Baked Ziti"
-                }
-              ]
-            }
-          ]
-        },
         {
           "date": "2026-08-10",
           "weekday": "MON",
@@ -169,13 +146,77 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2026-08-14",
+          "weekday": "FRI",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": []
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Al Pastor & Mushroom Al Pastor"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Beef Burger Patty & Beyond Burger Patty & Fried Chicken Tenders"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Baked Spaghetti & Vegetable Baked Ziti"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Al Pastor Chicken & Mushroom Al Pastor"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Fried Chicken Tenders & Philly Cheesesteak & Portobello Philly Cheesesteak"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Swedish Meatballs"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "id": "commons",
       "name": "Commons",
-      "days": []
+      "days": [
+        {
+          "date": "2026-08-14",
+          "weekday": "FRI",
+          "meals": [
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Honey Garlic Pork Chops & Grilled Tofu"
+                },
+                {
+                  "station": "STIR FRY",
+                  "dish": "Mushroom Bulgogi & Teriyaki Chicken"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "kissam",
@@ -192,17 +233,12 @@
       "name": "Roth",
       "days": [
         {
-          "date": "2026-08-07",
-          "weekday": "FRI",
+          "date": "2026-08-11",
+          "weekday": "TUE",
           "meals": [
             {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "BAHN MI",
-                  "dish": "Pork Banh Mi & Portobello Banh Mi"
-                }
-              ]
+              "period": "LUNCH",
+              "dishes": []
             }
           ]
         }
