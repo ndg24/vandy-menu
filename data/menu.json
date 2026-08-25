@@ -1,167 +1,10 @@
 {
-  "scrapedAt": "2026-08-19T17:55:24.000Z",
+  "scrapedAt": "2026-08-23T19:29:36.000Z",
   "halls": [
     {
       "id": "rand",
       "name": "Rand",
       "days": [
-        {
-          "date": "2026-08-19",
-          "weekday": "WED",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "BEYOND Meat Sausage Patty & Scrambled Eggs & Scrambled JUST Eggs & Turkey Bacon"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Chipotle Marinated Shrimp & Sweet Potato Sofrito"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Beef Burger Patty & Beyond Burger Patty & Fried Chicken Tenders"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": []
-            }
-          ]
-        },
-        {
-          "date": "2026-08-20",
-          "weekday": "THU",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "BEYOND Meat Sausage Patty & Scrambled Eggs & Scrambled JUST Eggs & Turkey Bacon"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Jamaican Jerk Chicken & Plant-Based Chipotle Chorizo"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "BBQ Chicken Thighs"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Chicken Pesto"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": []
-            }
-          ]
-        },
-        {
-          "date": "2026-08-21",
-          "weekday": "FRI",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "BEYOND Meat Sausage Patty & Scrambled Eggs & Scrambled JUST Eggs & Turkey Bacon"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Al Pastor & Mushroom Al Pastor"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Philly Cheesesteak & Portobello Philly Cheesesteak"
-                },
-                {
-                  "station": "MONGOLIAN",
-                  "dish": "Korean Beef Bibimbop"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Beef Meatballs"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": []
-            }
-          ]
-        },
-        {
-          "date": "2026-08-22",
-          "weekday": "SAT",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "BEYOND Meat Sausage Patty & Scrambled Eggs & Scrambled JUST Eggs & Turkey Bacon"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "California Herbed Chicken Thigh & Plant-Based Chipotle Chorizo"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Beyond Burger Patty & Blended Beef Burger Patty & Fried Chicken Tenders"
-                },
-                {
-                  "station": "MONGOLIAN",
-                  "dish": "Zesty Orange Popcorn Shrimp"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Baked Spaghetti"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Beef Taco Meat & Tofu Taco Meat"
-                },
-                {
-                  "station": "PASTA",
-                  "dish": "Cajun Cream Penne Shrimp"
-                }
-              ]
-            }
-          ]
-        },
         {
           "date": "2026-08-23",
           "weekday": "SUN",
@@ -222,6 +65,31 @@
                   "dish": "Pork Sausage, Egg, & Cheese Croissant & Vegetarian Sausage Egg &Cheese Croissant & Waffle"
                 }
               ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Beef Taco Meat & Chipotle Adobo Mushroom Crumble"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Blended Beef Burger Patty & Fried Chicken Tenders & Impossible Burger Patty"
+                },
+                {
+                  "station": "MEDITERRANEAN",
+                  "dish": "Beef & Lamb Gyro Slices & Lemon Baked Tilapia"
+                },
+                {
+                  "station": "MONGOLIAN",
+                  "dish": "Commodore Tso Chicken & Commodore Tso Tofu"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Beef Meatballs"
+                }
+              ]
             }
           ]
         },
@@ -241,6 +109,245 @@
                   "dish": "Breakfast Burrito & Breakfast Burrito w/ Sausage & Waffle"
                 }
               ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Peruvian Chicken & Spiced Tofu"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Fried Chicken Tenders & Salisbury Steak"
+                },
+                {
+                  "station": "MEDITERRANEAN",
+                  "dish": "Citrus Chicken & Falafel"
+                },
+                {
+                  "station": "MONGOLIAN",
+                  "dish": "Mushroom Bulgogi & Pork Bulgogi"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Cajun Chicken Pasta & Cajun Cream Penne Shrimp"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-26",
+          "weekday": "WED",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Scrambled Eggs & Turkey Bacon & Vegan Egg"
+                },
+                {
+                  "station": "CHEF'S TABLE",
+                  "dish": "Waffle"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Belgian Waffle & Fried Chicken Tenders"
+                }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Peruvian Beef & Sweet Potato Sofrito"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Philly Cheesesteak & Portobello Philly Cheesesteak"
+                },
+                {
+                  "station": "MEDITERRANEAN",
+                  "dish": "Butter Chicken & Herbed Cod"
+                },
+                {
+                  "station": "MONGOLIAN",
+                  "dish": "Sesame Roasted Mushrooms & Soyu Chicken"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-27",
+          "weekday": "THU",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Scrambled Eggs & Turkey Bacon & Vegan Egg"
+                },
+                {
+                  "station": "CHEF'S TABLE",
+                  "dish": "Waffle"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Pancakes"
+                }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Chipotle Orange Chicken Thigh & Sweet Potato Sofrito"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Tomatillo Avocado Sauced Chicken"
+                },
+                {
+                  "station": "MEDITERRANEAN",
+                  "dish": "Lemon Pepper Shrimp & Mediterranean Beef Stir Fry"
+                },
+                {
+                  "station": "MONGOLIAN",
+                  "dish": "Mushroom Bulgogi & Spicy Bulgogi Flank Steak"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Swedish Meatballs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-28",
+          "weekday": "FRI",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Scrambled Eggs & Turkey Bacon & Vegan Egg"
+                },
+                {
+                  "station": "CHEF'S TABLE",
+                  "dish": "Chicken Fried Biscuit & Waffle"
+                }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "California Herbed Chicken Thigh & Lentil Taco Filling"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Andouille Burnt Ends & Roasted Squash & Zucchini & Shrimp & Grits"
+                },
+                {
+                  "station": "MEDITERRANEAN",
+                  "dish": "Chicken Shawarma & Bruschetta Baked Tilapia"
+                },
+                {
+                  "station": "MONGOLIAN",
+                  "dish": "Kung Pao Tofu & Kung Poa Chicken"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Chicken Pesto"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Beef Nachos"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Beyond Burger Patty & Blended Burger & Fried Chicken Tenders"
+                },
+                {
+                  "station": "MEDITERRANEAN",
+                  "dish": "Bruschetta Baked Tilapia & Chicken Shawarma"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Beef Meatballs"
+                },
+                {
+                  "station": "CRAFTED FLATBREAD PIZZA",
+                  "dish": "Cheese Flatbread & Pepperoni Flatbread"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-29",
+          "weekday": "SAT",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Bacon & BEYOND Meat Sausage Patty & Chicken Sausage Links & Pork Sausage Patty & Scrambled Eggs & Turkey Bacon"
+                }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Sauteed Chorizo & Plant-Based Chipotle Chorizo"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Beyond Burger Patty & Blended Beef Burger Patty & Fried Chicken Tenders"
+                },
+                {
+                  "station": "MONGOLIAN",
+                  "dish": "Zesty Orange Popcorn Shrimp"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Baked Ziti w/ Sausage & Vegetable Baked Ziti"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Baha Cod w/ Mango Salsa & Jamaican Jerk Chicken"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Beyond Burger Patty & Blended Burger & Fried Chicken Tenders"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Beef Meatballs & Herbed Baked Chicken"
+                }
+              ]
             }
           ]
         }
@@ -250,144 +357,6 @@
       "id": "commons",
       "name": "Commons",
       "days": [
-        {
-          "date": "2026-08-19",
-          "weekday": "WED",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "HOT LINE",
-                  "dish": "Scrambled Eggs & Ham, Egg & Cheese Croissant"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "GRILL",
-                  "dish": "Gyro Sandwich & Gyro Style Mushrooms"
-                },
-                {
-                  "station": "STIR FRY",
-                  "dish": "Spicy Sesame Tofu Stir-Fry w/ Veggies & Chicken Szechuan Stir Fry"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "GRILL",
-                  "dish": "Chicken Fried Tofu & Nashville Hot Chicken Tenders"
-                },
-                {
-                  "station": "COMMON TABLE",
-                  "dish": "Marinated Grilled Chicken & Roasted Portobello Mushrooms"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-08-20",
-          "weekday": "THU",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "HOT LINE",
-                  "dish": "Fried Eggs & Turkey Sausage, Egg & Cheese Croissant"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Achiote Chicken & Lentil Taco Filling"
-                },
-                {
-                  "station": "STIR FRY",
-                  "dish": "Garlic Tofu Stir-Fry & Garlic Pepper Shrimp"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "CHEF'S TABLE",
-                  "dish": "Grilled Chicken Breast & Corned Lions Mane & Grilled Steak"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-08-21",
-          "weekday": "FRI",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "HOT LINE",
-                  "dish": "Fried Eggs & Ham Egg & Cheese Biscuit"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Mushroom Birria & Beef Birria"
-                },
-                {
-                  "station": "STIR FRY",
-                  "dish": "Chicken Pad Thai & Vegetable & Tofu Pad Thai"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "GRILL",
-                  "dish": "Lentil Meatball Marinara Sandwich & Meatball Sub"
-                },
-                {
-                  "station": "COMMON TABLE",
-                  "dish": "Grilled Sweet Thai Chili Chicken Tenders & Thai Red Curry Vegetables & Tofu"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-08-22",
-          "weekday": "SAT",
-          "meals": [
-            {
-              "period": "LUNCH",
-              "dishes": []
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "CHEF'S TABLE",
-                  "dish": "Beef Souvlaki & Green Lentil & Eggplant Moussaka & Herb Roasted Chicken Breast & Sun Dried Tomato Spread & Roasted Mushrooms"
-                }
-              ]
-            }
-          ]
-        },
         {
           "date": "2026-08-23",
           "weekday": "SUN",
@@ -427,24 +396,7 @@
             },
             {
               "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "PIZZA",
-                  "dish": "Barbecue Chicken Pizza & Cheese Pizza & Pepperoni Pizza"
-                },
-                {
-                  "station": "FRESH MEX",
-                  "dish": "Al Pastor & Tofu Taco Filling"
-                },
-                {
-                  "station": "GRILL",
-                  "dish": "Black Bean Burger Patty & Blended Beef Burger Patty & Grilled Chicken Thighs"
-                },
-                {
-                  "station": "STIR FRY",
-                  "dish": "Teriyaki Tempura Chicken Stir Fry & Teriyaki Tofu Stir Fry"
-                }
-              ]
+              "dishes": []
             },
             {
               "period": "DINNER",
@@ -525,6 +477,234 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2026-08-26",
+          "weekday": "WED",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "HOT LINE",
+                  "dish": "Scrambled Eggs"
+                }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "PIZZA",
+                  "dish": "Buffalo Chicken Pizza & Cheese Pizza & Pepperoni Pizza"
+                },
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Chicken Mojo & Yuca con Mojo"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "BBQ Chicken Thighs & BBQ Tofu"
+                },
+                {
+                  "station": "STIR FRY",
+                  "dish": "Sweet & Sour Tofu & Sweet & Sour Pork"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "PIZZA",
+                  "dish": "Cheese Pizza & Chicken Bacon Ranch Pizza & Pepperoni Pizza"
+                },
+                {
+                  "station": "CHEF'S TABLE",
+                  "dish": "Jamaican Jerk Chicken & Jamaican Jerk Tofu"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "BEYOND Sausage Brat w/ Peppers & Onions & Wisconsin Bratwurst Sandwich"
+                },
+                {
+                  "station": "COMMON TABLE",
+                  "dish": "Pork Souvlaki & Tofu Souvlaki"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-27",
+          "weekday": "THU",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "HOT LINE",
+                  "dish": "Fried Eggs"
+                }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "PIZZA",
+                  "dish": "Cheese Pizza & Margherita Pizza & Pepperoni Pizza"
+                },
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Lentil Taco Filling & Pork Barbacoa"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Nashville Hot Cauliflower & Nashville Hot Chicken Tenders"
+                },
+                {
+                  "station": "STIR FRY",
+                  "dish": "Chicken Szechuan Stir Fry & Szechuan Tofu Stir-Fry"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "PIZZA",
+                  "dish": "Cheese Pizza & Chicken Pesto Primavera Pizza & Pepperoni Pizza"
+                },
+                {
+                  "station": "CHEF'S TABLE",
+                  "dish": "Fried Pork Chop & Chicken Fried Tofu"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "BBQ Chicken Sliders & BBQ Jackfruit"
+                },
+                {
+                  "station": "COMMON TABLE",
+                  "dish": "Butter Chicken & Chickpea Tagine w/ Chermoula Sauce"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-28",
+          "weekday": "FRI",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "HOT LINE",
+                  "dish": "Fried Eggs"
+                }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "PIZZA",
+                  "dish": "Cheese Pizza & Hawaiian Pizza & Pepperoni Pizza"
+                },
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Tofu Taco Filling & Chicken Tinga"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Crispy Catfish"
+                },
+                {
+                  "station": "STIR FRY",
+                  "dish": "Chick'n Stir Fry w/ Chili Garlic Sauce & Spicy Pork & Vegetable"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "PIZZA",
+                  "dish": "Cheese Pizza & Diablo Pizza & Pepperoni Pizza"
+                },
+                {
+                  "station": "CHEF'S TABLE",
+                  "dish": "Beef Kofta Kabob & Paneer Kofta"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Grilled Buffalo Wings"
+                },
+                {
+                  "station": "COMMON TABLE",
+                  "dish": "Grilled Tofu & Bruschetta Baked Tilapia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-29",
+          "weekday": "SAT",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "HOT LINE",
+                  "dish": "Scrambled Eggs"
+                }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "PIZZA",
+                  "dish": "Cheese Pizza & Farmstand Pizza & Pepperoni Pizza"
+                },
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Pork Carnitas & Vegetable Fajitas"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Black Bean Burger Patty & Blended Beef Burger Patty & Grilled Chicken Thighs"
+                },
+                {
+                  "station": "HOT LINE",
+                  "dish": "Scrambled Eggs"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "PIZZA",
+                  "dish": "Cheese Pizza & Pepperoni Pizza & Spinach, Feta, & Tomato Pizza"
+                },
+                {
+                  "station": "CHEF'S TABLE",
+                  "dish": "Roasted Tofu & Pineapple & Tomatillo Avocado Sauced Chicken"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Black Bean Burger Patty & Grilled Chicken Thighs & Blended Beef Burger Patty"
+                },
+                {
+                  "station": "COMMON TABLE",
+                  "dish": "Garlic Tofu Stir-Fry & Sweet Chili Pork"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -532,133 +712,6 @@
       "id": "kissam",
       "name": "Kissam",
       "days": [
-        {
-          "date": "2026-08-19",
-          "weekday": "WED",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "BODEGA HOT LINE",
-                  "dish": "Bacon, Egg, & Cheese Sandwich & JUST Egg Greek Breakfast Scramble & Scrambled Eggs"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": []
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "BODEGA HOT LINE",
-                  "dish": "Nashville Hot Cauliflower & Nashville Hot Chicken Tenders"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-08-20",
-          "weekday": "THU",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "BODEGA HOT LINE",
-                  "dish": "Mushroom & Onion JUST Egg Scrambler & Scrambled Eggs"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "POKE",
-                  "dish": "Chipotle Orange Chicken Thigh & Hawaiian Style Tofu Poke & Hawaiian Style Tuna Poke"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "BODEGA HOT LINE",
-                  "dish": "Al Pastor Chicken & Beyond Beef Taco Meat & Ground Beef"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-08-21",
-          "weekday": "FRI",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "BODEGA HOT LINE",
-                  "dish": "Bacon, Egg, & Cheese Sandwich & JUST Egg Greek Breakfast Scramble & Scrambled Eggs"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "MEDITERRANEAN",
-                  "dish": "Baked Lemon Rosemary Chicken & Falafel & Herb Roasted Lamb"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "BODEGA HOT LINE",
-                  "dish": "Blackened Shrimp & Moroccan Saffron Rice Pilaf w Vegetables & Paella"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "date": "2026-08-22",
-          "weekday": "SAT",
-          "meals": [
-            {
-              "period": "BREAKFAST",
-              "dishes": [
-                {
-                  "station": "BODEGA HOT LINE",
-                  "dish": "Bacon, Egg, & Cheese Sandwich & JUST Egg Greek Breakfast Scramble & Scrambled Eggs"
-                }
-              ]
-            },
-            {
-              "period": "LUNCH",
-              "dishes": [
-                {
-                  "station": "HOT LINE",
-                  "dish": "Teriyaki Chicken Stir Fry & Teriyaki Tofu Stir Fry"
-                }
-              ]
-            },
-            {
-              "period": "DINNER",
-              "dishes": [
-                {
-                  "station": "BODEGA HOT LINE",
-                  "dish": "Chipotle Honey Shrimp & Chipotle Orange Chicken Thigh & Jackfruit Carnitas"
-                }
-              ]
-            }
-          ]
-        },
         {
           "date": "2026-08-23",
           "weekday": "SUN",
@@ -710,7 +763,7 @@
               "dishes": [
                 {
                   "station": "MEDITERRANEAN",
-                  "dish": "Baked Lemon Rosemary Chicken & Falafel & Herb Roasted Lamb"
+                  "dish": "Falafel & Herb Roasted Lamb & Split Roasted Chicken Breast"
                 }
               ]
             },
@@ -743,7 +796,7 @@
               "dishes": [
                 {
                   "station": "POKE",
-                  "dish": "Hawaiian Style Tofu Poke & Hawaiian Style Tuna Poke & Chipotle Orange Chicken Thigh"
+                  "dish": "Hawaiian Style Tofu Poke & Hawaiian Style Tuna Poke"
                 }
               ]
             },
@@ -757,27 +810,54 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "ebi",
-      "name": "EBI",
-      "days": [
+        },
         {
-          "date": "2026-08-22",
-          "weekday": "SAT",
+          "date": "2026-08-26",
+          "weekday": "WED",
           "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "BODEGA HOT LINE",
+                  "dish": "Bacon, Egg, & Cheese Sandwich & JUST Egg Greek Breakfast Scramble & Scrambled Eggs"
+                }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": []
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "BODEGA HOT LINE",
+                  "dish": "Nashville Hot Cauliflower & Nashville Hot Chicken Tenders"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-27",
+          "weekday": "THU",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "BODEGA HOT LINE",
+                  "dish": "Breakfast Burrito & Mushroom & Onion JUST Egg Scrambler & Scrambled Eggs"
+                }
+              ]
+            },
             {
               "period": "LUNCH",
               "dishes": [
                 {
-                  "station": "SAUTE BOWLS",
-                  "dish": "Shredded Chicken"
-                },
-                {
-                  "station": "POWER PLANT",
-                  "dish": "Mashed Potato & Rotisserie Style Chicken & Sauteed Green Beans & Italian Roasted Squash & Zucchini"
+                  "station": "POKE",
+                  "dish": "Chipotle Orange Chicken Thigh & Hawaiian Style Tofu Poke & Hawaiian Style Tuna Poke"
                 }
               ]
             },
@@ -785,21 +865,53 @@
               "period": "DINNER",
               "dishes": [
                 {
-                  "station": "GLOBAL",
-                  "dish": "Rotisserie Style Chicken & Southern Hamburger Steak & Gravy"
-                },
-                {
-                  "station": "SAUTE BOWLS",
-                  "dish": "Shredded Chicken"
-                },
-                {
-                  "station": "POWER PLANT",
-                  "dish": "Steamed Lima Beans & Chilled Roasted Sweet Potatoes & Roasted Okra & Creamed Corn"
+                  "station": "BODEGA HOT LINE",
+                  "dish": "Al Pastor & Al Pastor Chicken & Beyond Beef Taco Meat"
                 }
               ]
             }
           ]
         },
+        {
+          "date": "2026-08-28",
+          "weekday": "FRI",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "BODEGA HOT LINE",
+                  "dish": "Bacon, Egg, & Cheese Sandwich & JUST Egg Greek Breakfast Scramble & Scrambled Eggs"
+                }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "MEDITERRANEAN",
+                  "dish": "Falafel & Herb Roasted Lamb & Split Roasted Chicken Breast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-29",
+          "weekday": "SAT",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ebi",
+      "name": "EBI",
+      "days": [
         {
           "date": "2026-08-23",
           "weekday": "SUN",
@@ -823,6 +935,23 @@
                 {
                   "station": "POWER PLANT",
                   "dish": "Baked Potato & Collard Greens"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "GLOBAL MEATS",
+                  "dish": "Split Roasted Chicken Breast & Beef Stew"
+                },
+                {
+                  "station": "SAUTE BOWLS",
+                  "dish": "Shredded Chicken"
+                },
+                {
+                  "station": "POWER PLANT",
+                  "dish": "Baked Potato & Collard Greens & Southern Black Eyed Peas & Sweet Potato Cornbread"
                 }
               ]
             }
@@ -849,7 +978,7 @@
               "period": "DINNER",
               "dishes": [
                 {
-                  "station": "GLOBAL",
+                  "station": "GLOBAL MEATS",
                   "dish": "Maple Brined Smoked Chicken & Harvest Chicken Casserole"
                 },
                 {
@@ -885,7 +1014,7 @@
               "period": "DINNER",
               "dishes": [
                 {
-                  "station": "GLOBAL",
+                  "station": "GLOBAL MEATS",
                   "dish": "Smoked BBQ Chicken Thighs & Pot Roast"
                 },
                 {
@@ -899,35 +1028,21 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "roth",
-      "name": "Roth",
-      "days": [
+        },
         {
-          "date": "2026-08-22",
-          "weekday": "SAT",
+          "date": "2026-08-26",
+          "weekday": "WED",
           "meals": [
             {
               "period": "LUNCH",
               "dishes": [
                 {
-                  "station": "GRILL",
-                  "dish": "Black Bean Burger Patty & Blended Beef Burger Patty & Grilled Chicken Breast"
+                  "station": "SAUTE BOWLS",
+                  "dish": "Shredded Chicken & Diced Steak"
                 },
                 {
-                  "station": "PHO",
-                  "dish": "Roasted Pork Loin & Spicy Sesame Roasted Tofu"
-                },
-                {
-                  "station": "RICE RICE BABY",
-                  "dish": "Shredded Chicken & Roasted Pork Loin & Fried Rice & Fried Rice w/ Egg"
-                },
-                {
-                  "station": "SWAADISHT",
-                  "dish": "Fish Tagine with Chermoula"
+                  "station": "POWER PLANT",
+                  "dish": "Falafel & Greek Chicken & Greek Rice & Roasted Grape Tomatoes & Roasted Chickpeas"
                 }
               ]
             },
@@ -935,21 +1050,96 @@
               "period": "DINNER",
               "dishes": [
                 {
-                  "station": "CHEF'S TABLE",
-                  "dish": "Horseradish Crusted Salmon & Lentil Pot Pie"
+                  "station": "GLOBAL MEATS",
+                  "dish": "Greek Chicken & Mediterranean Beef Stir Fry"
                 },
                 {
-                  "station": "EASTERN FLAVORS",
-                  "dish": "Steamed Bao Bun & Chashu Pulled Pork & Mashed Tofu & Mushroom Filling"
+                  "station": "SAUTE BOWLS",
+                  "dish": "Shredded Chicken & Diced Steak"
                 },
                 {
-                  "station": "RICE RICE BABY",
-                  "dish": "Shredded Chicken & Roasted Pork Loin & Fried Rice & Fried Rice w/ Egg"
+                  "station": "POWER PLANT",
+                  "dish": "Greek Style Potatoes & Roasted Chickpeas & Roasted Grape Tomatoes"
                 }
               ]
             }
           ]
         },
+        {
+          "date": "2026-08-27",
+          "weekday": "THU",
+          "meals": [
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "SAUTE BOWLS",
+                  "dish": "Shredded Chicken"
+                },
+                {
+                  "station": "POWER PLANT",
+                  "dish": "Johnny Cake & Southern Black Eyed Peas & BBQ Pulled Chicken & Collard Greens"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "GLOBAL MEATS",
+                  "dish": "Cajun Baked Chicken & Cajun Beef & Grits"
+                },
+                {
+                  "station": "SAUTE BOWLS",
+                  "dish": "Shredded Chicken"
+                },
+                {
+                  "station": "POWER PLANT",
+                  "dish": "Cajun Garlic Yukon Potatoes & Honestyle Potaot Salad & Corn on the Cob & Sweet Potato Fries & Southern Black Eyed Peas"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-28",
+          "weekday": "FRI",
+          "meals": [
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "SAUTE BOWLS",
+                  "dish": "Shredded Chicken"
+                },
+                {
+                  "station": "POWER PLANT",
+                  "dish": "Southwest Black Beans & White Corn Tortilla 4.5\" & Carne Asada"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": []
+            }
+          ]
+        },
+        {
+          "date": "2026-08-29",
+          "weekday": "SAT",
+          "meals": [
+            {
+              "period": "DINNER",
+              "dishes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roth",
+      "name": "Roth",
+      "days": [
         {
           "date": "2026-08-23",
           "weekday": "SUN",
@@ -1069,6 +1259,121 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2026-08-26",
+          "weekday": "WED",
+          "meals": [
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Black Bean Burger Patty & Blended Beef Burger Patty & Grilled Chicken Breast"
+                },
+                {
+                  "station": "PHO",
+                  "dish": "Spicy Sesame Roasted Tofu & Shredded Chicken"
+                },
+                {
+                  "station": "RICE RICE BABY",
+                  "dish": "Chow Mein & Shredded Chicken & Steamed Shrimp"
+                },
+                {
+                  "station": "SWAADISHT",
+                  "dish": "Beef Bhuna"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "CHEF'S TABLE",
+                  "dish": "Beef Lasagna & Vegetable Lasagna"
+                },
+                {
+                  "station": "EASTERN FLAVORS",
+                  "dish": "Laotian Lemongrass Beef"
+                },
+                {
+                  "station": "RICE RICE BABY",
+                  "dish": "Chow Mein & Shredded Chicken & Steamed Shrimp"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-27",
+          "weekday": "THU",
+          "meals": [
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Black Bean Burger Patty & Blended Beef Burger Patty & Grilled Chicken Breast"
+                },
+                {
+                  "station": "PHO",
+                  "dish": "Spicy Sesame Roasted Tofu & Shredded Chicken"
+                },
+                {
+                  "station": "RICE RICE BABY",
+                  "dish": "Fried Rice & Fried Rice w/ Egg & Shredded Chicken & Roasted Pork Loin"
+                },
+                {
+                  "station": "SWAADISHT",
+                  "dish": "Bang Bang Shrimp & Bang Bang Tempura Tofu"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "CHEF'S TABLE",
+                  "dish": "BBQ Jackfruit & BBQ Pulled Pork & Brioche Bun"
+                },
+                {
+                  "station": "EASTERN FLAVORS",
+                  "dish": "Bang Bang Tempura Tofu & Chicken Bang Bang Deep Fried"
+                },
+                {
+                  "station": "RICE RICE BABY",
+                  "dish": "Fried Rice & Fried Rice w/ Egg & Shredded Chicken & Roasted Pork Loin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-28",
+          "weekday": "FRI",
+          "meals": [
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Black Bean Burger Patty & Blended Beef Burger Patty & Grilled Chicken Breast"
+                },
+                {
+                  "station": "PHO",
+                  "dish": "Spicy Sesame Roasted Tofu & Shredded Chicken"
+                },
+                {
+                  "station": "RICE RICE BABY",
+                  "dish": "Chow Mein & Shredded Chicken & Roasted Pork Loin"
+                },
+                {
+                  "station": "SWAADISHT",
+                  "dish": "Paneer Tikka Masala"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1086,6 +1391,10 @@
                 {
                   "station": "HOT LINE",
                   "dish": "Cheese Croque Monsieur & Croque Monsieur"
+                },
+                {
+                  "station": "SOUP",
+                  "dish": "Tomato Basil Bisque"
                 },
                 {
                   "station": "DELI",
@@ -1124,6 +1433,10 @@
               "period": "LUNCH",
               "dishes": [
                 {
+                  "station": "SOUP",
+                  "dish": "Tomato Basil Bisque"
+                },
+                {
                   "station": "DELI",
                   "dish": "Carmie Chicken Salad & Chicken Caesar Wrap & Harissa Salad Sandwich & Pesto Turkey Sandwich & Pimento Cheese Spread & Tamago Egg Salad Sando & Tuna Salad Sandwich"
                 }
@@ -1160,6 +1473,90 @@
               "period": "LUNCH",
               "dishes": [
                 {
+                  "station": "SOUP",
+                  "dish": "Tomato Basil Bisque"
+                },
+                {
+                  "station": "DELI",
+                  "dish": "Carmie Chicken Salad & Chicken Caesar Wrap & Harissa Salad Sandwich & Pesto Turkey Sandwich & Pimento Cheese Spread & Tamago Egg Salad Sando & Tuna Salad Sandwich"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-26",
+          "weekday": "WED",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "BREAKFAST SANDWICH",
+                  "dish": "Citrus Turkey Sausage Breakfast Sandwich & Fruit Sando"
+                },
+                {
+                  "station": "AVOCADO TOAST",
+                  "dish": "Avocado Toast w/ Goat Cheese & Balsamic"
+                },
+                {
+                  "station": "HOT LINE",
+                  "dish": "Bacon & Swiss Quiche & Vegetable Frittata & Vegetable Quiche"
+                },
+                {
+                  "station": "BAGEL",
+                  "dish": "Nova Lox Bagel"
+                }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "SOUP",
+                  "dish": "Tomato Basil Bisque"
+                },
+                {
+                  "station": "DELI",
+                  "dish": "Carmie Chicken Salad & Chicken Caesar Wrap & Harissa Salad Sandwich & Pesto Turkey Sandwich & Pimento Cheese Spread & Tamago Egg Salad Sando & Tuna Salad Sandwich"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-27",
+          "weekday": "THU",
+          "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "BREAKFAST SANDWICH",
+                  "dish": "Citrus Turkey Sausage Breakfast Sandwich & Fruit Sando"
+                },
+                {
+                  "station": "AVOCADO TOAST",
+                  "dish": "Avocado Toast w/ Goat Cheese & Balsamic"
+                },
+                {
+                  "station": "HOT LINE",
+                  "dish": "Ham & Cheese Quiche & Vegetable Frittata & Vegetable Quiche"
+                },
+                {
+                  "station": "BAGEL",
+                  "dish": "Nova Lox Bagel"
+                }
+              ]
+            },
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "SOUP",
+                  "dish": "Tomato Basil Bisque"
+                },
+                {
                   "station": "DELI",
                   "dish": "Carmie Chicken Salad & Chicken Caesar Wrap & Harissa Salad Sandwich & Pesto Turkey Sandwich & Pimento Cheese Spread & Tamago Egg Salad Sando & Tuna Salad Sandwich"
                 }
@@ -1191,7 +1588,7 @@
                 },
                 {
                   "station": "HOT LINE",
-                  "dish": "Mediterranean Grilled Chicken & Imitation Bacon Bits"
+                  "dish": "Imitation Bacon Bits"
                 }
               ]
             },
@@ -1204,7 +1601,7 @@
                 },
                 {
                   "station": "HOT LINE",
-                  "dish": "Mediterranean Grilled Chicken & Plant-Based Chipotle Chorizo & Imitation Bacon Bits & French Toast"
+                  "dish": "Plant-Based Chipotle Chorizo & Imitation Bacon Bits & French Toast"
                 }
               ]
             },
@@ -1228,7 +1625,7 @@
               "dishes": [
                 {
                   "station": "MEDITERRANEAN",
-                  "dish": "Mediterranean Grilled Chicken & Falafel"
+                  "dish": "Falafel & Beef Shawarma"
                 }
               ]
             },
@@ -1237,7 +1634,7 @@
               "dishes": [
                 {
                   "station": "LANGUAGE TABLE",
-                  "dish": "Chicken Tinga & Plant-Based Chipotle Chorizo"
+                  "dish": "Plant-Based Chipotle Chorizo & Beef Birria"
                 }
               ]
             }
@@ -1262,6 +1659,69 @@
                 {
                   "station": "LANGUAGE TABLE",
                   "dish": "Butter Chicken"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-26",
+          "weekday": "WED",
+          "meals": [
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "MEDITERRANEAN",
+                  "dish": "Mediterranean Grilled Chicken & Falafel & Lemon Pepper Salmon"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "LANGUAGE TABLE",
+                  "dish": "Beef Bulgogi & Deep Fried Sweet Garlic Marinated Tofu"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-27",
+          "weekday": "THU",
+          "meals": [
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "MEDITERRANEAN",
+                  "dish": "Beef Shawarma & Mediterranean Grilled Chicken & Falafel"
+                }
+              ]
+            },
+            {
+              "period": "DINNER",
+              "dishes": [
+                {
+                  "station": "LANGUAGE TABLE",
+                  "dish": "Smoked BBQ Chicken Thighs & BBQ Tofu"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-08-28",
+          "weekday": "FRI",
+          "meals": [
+            {
+              "period": "LUNCH",
+              "dishes": [
+                {
+                  "station": "MEDITERRANEAN",
+                  "dish": "Mediterranean Grilled Chicken & Falafel"
                 }
               ]
             }
