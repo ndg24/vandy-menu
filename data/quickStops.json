@@ -1,0 +1,105 @@
+{
+  "scrapedAt": "2026-08-26T15:00:00.000Z",
+  "locations": [
+    {
+      "id": "commons-munchie",
+      "name": "Commons Munchie",
+      "windows": [
+        { "weekday": "MON", "open": "07:00", "close": "23:59" },
+        { "weekday": "TUE", "open": "07:00", "close": "23:59" },
+        { "weekday": "WED", "open": "07:00", "close": "23:59" },
+        { "weekday": "THU", "open": "07:00", "close": "11:59" },
+        { "weekday": "FRI", "open": "07:00", "close": "22:00" },
+        { "weekday": "SAT", "open": "08:00", "close": "22:00" },
+        { "weekday": "SUN", "open": "08:00", "close": "23:59" }
+      ]
+    },
+    {
+      "id": "kissam-munchie",
+      "name": "Kissam Munchie",
+      "windows": [
+        { "weekday": "MON", "open": "07:00", "close": "23:59" },
+        { "weekday": "TUE", "open": "07:00", "close": "23:59" },
+        { "weekday": "WED", "open": "07:00", "close": "23:59" },
+        { "weekday": "THU", "open": "07:00", "close": "23:59" },
+        { "weekday": "FRI", "open": "07:00", "close": "23:59" },
+        { "weekday": "SAT", "open": "08:00", "close": "23:59" },
+        { "weekday": "SUN", "open": "08:00", "close": "20:00" }
+      ]
+    },
+    {
+      "id": "highland-munchie",
+      "name": "Highland Munchie",
+      "windows": [
+        { "weekday": "MON", "open": "07:00", "close": "23:59" },
+        { "weekday": "TUE", "open": "07:00", "close": "23:59" },
+        { "weekday": "WED", "open": "07:00", "close": "23:59" },
+        { "weekday": "THU", "open": "07:00", "close": "23:59" },
+        { "weekday": "FRI", "open": "07:00", "close": "23:59" },
+        { "weekday": "SAT", "open": "08:00", "close": "23:59" },
+        { "weekday": "SUN", "open": "08:00", "close": "23:59" }
+      ]
+    },
+    {
+      "id": "local-java",
+      "name": "Local Java Cafe at Alumni",
+      "windows": [
+        { "weekday": "MON", "open": "07:00", "close": "16:00" },
+        { "weekday": "WED", "open": "07:00", "close": "16:00" },
+        { "weekday": "THU", "open": "07:00", "close": "16:00" },
+        { "weekday": "FRI", "open": "07:00", "close": "14:00" },
+        { "weekday": "SAT", "open": "08:00", "close": "15:00" }
+      ]
+    },
+    {
+      "id": "vandyblenz",
+      "name": "VandyBlenz",
+      "windows": [
+        { "weekday": "MON", "open": "08:00", "close": "17:00" },
+        { "weekday": "TUE", "open": "08:00", "close": "17:00" },
+        { "weekday": "WED", "open": "08:00", "close": "17:00" },
+        { "weekday": "THU", "open": "08:00", "close": "17:00" },
+        { "weekday": "FRI", "open": "08:00", "close": "17:00" },
+        { "weekday": "SAT", "open": "09:00", "close": "14:00" }
+      ]
+    },
+    {
+      "id": "suzies-food-for-thought",
+      "name": "Suzie's Food for Thought Cafe",
+      "windows": [
+        { "weekday": "WED", "open": "08:00", "close": "19:00" },
+        { "weekday": "THU", "open": "08:00", "close": "19:00" },
+        { "weekday": "FRI", "open": "08:00", "close": "15:00" }
+      ]
+    },
+    {
+      "id": "suzies-blair",
+      "name": "Suzie's Blair School of Music",
+      "windows": [
+        { "weekday": "WED", "open": "08:00", "close": "14:30" },
+        { "weekday": "THU", "open": "08:00", "close": "14:30" },
+        { "weekday": "FRI", "open": "08:00", "close": "14:30" }
+      ]
+    },
+    {
+      "id": "suzies-mrb3",
+      "name": "Suzie's MRB III",
+      "windows": [
+        { "weekday": "MON", "open": "08:00", "close": "16:30" },
+        { "weekday": "TUE", "open": "08:00", "close": "16:30" },
+        { "weekday": "WED", "open": "08:00", "close": "16:30" },
+        { "weekday": "THU", "open": "08:00", "close": "16:30" },
+        { "weekday": "FRI", "open": "08:00", "close": "16:30" }
+      ]
+    },
+    {
+      "id": "suzies-featheringill",
+      "name": "Suzie's Featheringill",
+      "windows": [
+        { "weekday": "WED", "open": "08:00", "close": "14:30" },
+        { "weekday": "THU", "open": "08:00", "close": "14:30" },
+        { "weekday": "FRI", "open": "08:00", "close": "14:30" }
+      ]
+    }
+  ]
+}

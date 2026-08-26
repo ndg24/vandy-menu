@@ -13,6 +13,8 @@ export const HALL_ORDER = [
 
 export const DEFAULT_HALL_ID = "rand";
 
+export const QUICK_STOPS_ID = "quick-stops";
+
 export function orderedHalls(data: MenuData): DiningHall[] {
   return HALL_ORDER.map((id) => data.halls.find((h) => h.id === id)).filter(
     (h): h is DiningHall => h !== undefined,

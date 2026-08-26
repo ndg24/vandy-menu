@@ -2,6 +2,7 @@
 
 import SelectorButton from "./SelectorButton";
 import type { DiningHall } from "@/lib/types";
+import { QUICK_STOPS_ID } from "@/lib/menu";
 
 interface DiningHallSelectorProps {
   halls: DiningHall[];
@@ -24,6 +25,11 @@ export default function DiningHallSelector({
           label={hall.name}
         />
       ))}
+      <SelectorButton
+        selected={selectedHallId === QUICK_STOPS_ID}
+        onClick={() => onSelect(QUICK_STOPS_ID)}
+        label="QUICK STOPS"
+      />
     </div>
   );
 }
