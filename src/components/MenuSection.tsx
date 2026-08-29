@@ -4,9 +4,16 @@ import type { DishCard as DishCardData, MealPeriodName } from "@/lib/types";
 interface MenuSectionProps {
   period: MealPeriodName;
   dishes: DishCardData[];
+  favorites: Set<string>;
+  onToggleFavorite: (dish: string) => void;
 }
 
-export default function MenuSection({ period, dishes }: MenuSectionProps) {
+export default function MenuSection({
+  period,
+  dishes,
+  favorites,
+  onToggleFavorite,
+}: MenuSectionProps) {
   return (
     <section className="px-4 py-3">
       <div className="mb-3 flex items-center gap-2">
@@ -18,7 +25,13 @@ export default function MenuSection({ period, dishes }: MenuSectionProps) {
       ) : (
         <div className="flex flex-col gap-2">
           {dishes.map((d) => (
-            <DishCard key={`${d.station}-${d.dish}`} station={d.station} dish={d.dish} />
+            <DishCard
+              key={`${d.station}-${d.dish}`}
+              station={d.station}
+              dish={d.dish}
+              isFavorite={favorites.has(d.dish)}
+              onToggleFavorite={() => onToggleFavorite(d.dish)}
+            />
           ))}
         </div>
       )}

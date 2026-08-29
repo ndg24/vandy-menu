@@ -8,10 +8,12 @@ import MealSelector from "./MealSelector";
 import MenuSection from "./MenuSection";
 import HallStatusBadge from "./HallStatusBadge";
 import QuickStopsSection from "./QuickStopsSection";
+import FavoritesSection from "./FavoritesSection";
 import type { HoursData, MenuData, QuickStopsData } from "@/lib/types";
-import { QUICK_STOPS_ID, getDishes, orderedHalls } from "@/lib/menu";
+import { FAVORITES_ID, QUICK_STOPS_ID, getDishes, orderedHalls } from "@/lib/menu";
 import { getHallHours } from "@/lib/hours";
 import { useMenuSelection } from "@/state/useMenuSelection";
+import { useFavorites } from "@/state/useFavorites";
 
 export default function MenuApp({
   data,
@@ -33,8 +35,10 @@ export default function MenuApp({
     setSelectedMeal,
     selectedHall,
   } = useMenuSelection(data);
+  const { favorites, toggleFavorite } = useFavorites();
 
   const isQuickStops = selectedHallId === QUICK_STOPS_ID;
+  const isFavorites = selectedHallId === FAVORITES_ID;
   const dishes = selectedHall ? getDishes(selectedHall, selectedDate, selectedMeal) : [];
   const selectedHallHours = getHallHours(hoursData, selectedHallId);
 
@@ -48,9 +52,15 @@ export default function MenuApp({
           selectedHallId={selectedHallId}
           onSelect={setSelectedHallId}
         />
-        {!isQuickStops && <MealSelector selectedMeal={selectedMeal} onSelect={setSelectedMeal} />}
+        {!isQuickStops && !isFavorites && (
+          <MealSelector selectedMeal={selectedMeal} onSelect={setSelectedMeal} />
+        )}
       </StickySelectorBar>
-      {isQuickStops ? (
+      {isFavorites ? (
+        <main className="flex-1">
+          <FavoritesSection data={data} favorites={favorites} onToggleFavorite={toggleFavorite} />
+        </main>
+      ) : isQuickStops ? (
         <main className="flex-1">
           <QuickStopsSection data={quickStopsData} />
         </main>
@@ -58,7 +68,12 @@ export default function MenuApp({
         <>
           <HallStatusBadge hall={selectedHallHours} />
           <main className="flex-1">
-            <MenuSection period={selectedMeal} dishes={dishes} />
+            <MenuSection
+              period={selectedMeal}
+              dishes={dishes}
+              favorites={favorites}
+              onToggleFavorite={toggleFavorite}
+            />
           </main>
         </>
       )}
