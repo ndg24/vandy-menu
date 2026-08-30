@@ -41,6 +41,7 @@ export default function MenuApp({
   const isFavorites = selectedHallId === FAVORITES_ID;
   const dishes = selectedHall ? getDishes(selectedHall, selectedDate, selectedMeal) : [];
   const selectedHallHours = getHallHours(hoursData, selectedHallId);
+  const selectedWeekday = allDays.find((d) => d.date === selectedDate)?.weekday ?? "";
 
   return (
     <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col border-x-0 sm:border-x-2 border-border-black">
@@ -53,7 +54,12 @@ export default function MenuApp({
           onSelect={setSelectedHallId}
         />
         {!isQuickStops && !isFavorites && (
-          <MealSelector selectedMeal={selectedMeal} onSelect={setSelectedMeal} />
+          <MealSelector
+            selectedMeal={selectedMeal}
+            onSelect={setSelectedMeal}
+            hallId={selectedHallId}
+            weekday={selectedWeekday}
+          />
         )}
       </StickySelectorBar>
       {isFavorites ? (
@@ -70,6 +76,8 @@ export default function MenuApp({
           <main className="flex-1">
             <MenuSection
               period={selectedMeal}
+              hallId={selectedHallId}
+              weekday={selectedWeekday}
               dishes={dishes}
               favorites={favorites}
               onToggleFavorite={toggleFavorite}

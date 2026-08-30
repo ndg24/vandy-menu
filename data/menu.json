@@ -24,7 +24,28 @@
             },
             {
               "period": "LUNCH",
-              "dishes": []
+              "dishes": [
+                {
+                  "station": "FRESH MEX",
+                  "dish": "Beef Taco Meat & Lentil Taco Filling"
+                },
+                {
+                  "station": "GRILL",
+                  "dish": "Blended Beef Burger Patty & Fried Chicken Tenders & Beyond Burger Patty"
+                },
+                {
+                  "station": "MEDITERRANEAN",
+                  "dish": "Mediterranean Beef Stir Fry & Lemon Baked Tilapia"
+                },
+                {
+                  "station": "MONGOLIAN",
+                  "dish": "Commodore Tso Chicken & Commodore Tso Tofu"
+                },
+                {
+                  "station": "PASTA",
+                  "dish": "Beef Meatballs"
+                }
+              ]
             }
           ]
         },
@@ -1081,6 +1102,19 @@
           "weekday": "SUN",
           "meals": [
             {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "INTERNATIONAL BREAKFAST",
+                  "dish": "Spinach & Cheese Frittata"
+                },
+                {
+                  "station": "HOT LINE",
+                  "dish": "Scrambled Eggs & Hashbrown Casserole & Chocolate Chip Pancake"
+                }
+              ]
+            },
+            {
               "period": "LUNCH",
               "dishes": [
                 {
@@ -1321,6 +1355,27 @@
           "date": "2026-08-30",
           "weekday": "SUN",
           "meals": [
+            {
+              "period": "BREAKFAST",
+              "dishes": [
+                {
+                  "station": "BREAKFAST SANDWICH",
+                  "dish": "Citrus Turkey Sausage Breakfast Sandwich"
+                },
+                {
+                  "station": "AVOCADO TOAST",
+                  "dish": "Avocado Toast w/ Goat Cheese & Balsamic"
+                },
+                {
+                  "station": "HOT LINE",
+                  "dish": "Farm Scramble Bowl & Vegetable Frittata & Veggie Scramble Bowl"
+                },
+                {
+                  "station": "BAGEL",
+                  "dish": "Nova Lox Bagel"
+                }
+              ]
+            },
             {
               "period": "LUNCH",
               "dishes": [

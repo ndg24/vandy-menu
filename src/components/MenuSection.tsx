@@ -1,8 +1,11 @@
 import DishCard from "./DishCard";
 import type { DishCard as DishCardData, MealPeriodName } from "@/lib/types";
+import { mealLabel } from "@/lib/menu";
 
 interface MenuSectionProps {
   period: MealPeriodName;
+  hallId: string;
+  weekday: string;
   dishes: DishCardData[];
   favorites: Set<string>;
   onToggleFavorite: (dish: string) => void;
@@ -10,6 +13,8 @@ interface MenuSectionProps {
 
 export default function MenuSection({
   period,
+  hallId,
+  weekday,
   dishes,
   favorites,
   onToggleFavorite,
@@ -17,7 +22,9 @@ export default function MenuSection({
   return (
     <section className="px-4 py-3">
       <div className="mb-3 flex items-center gap-2">
-        <h2 className="font-display text-sm tracking-widest">{period}</h2>
+        <h2 className="font-display text-sm tracking-widest">
+          {mealLabel(period, hallId, weekday)}
+        </h2>
         <div className="h-0.5 flex-1 bg-border-black" />
       </div>
       {dishes.length === 0 ? (

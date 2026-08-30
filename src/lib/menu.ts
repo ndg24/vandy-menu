@@ -36,6 +36,18 @@ export function getDishes(hall: DiningHall, date: string, period: MealPeriodName
   return day?.meals.find((m) => m.period === period)?.dishes ?? [];
 }
 
+// Roth and Carmichael don't run a separate Breakfast on Sundays — the site
+// publishes a single "Brunch" service instead, which we store under the
+// existing BREAKFAST slot and relabel here for display.
+const BRUNCH_HALLS = ["roth", "carmichael"];
+
+export function mealLabel(period: MealPeriodName, hallId: string, weekday: string): string {
+  if (period === "BREAKFAST" && weekday === "SUN" && BRUNCH_HALLS.includes(hallId)) {
+    return "BRUNCH";
+  }
+  return period;
+}
+
 export function currentMealPeriod(now: Date = new Date()): MealPeriodName {
   const hour = now.getHours();
   if (hour < 11) return "BREAKFAST";
