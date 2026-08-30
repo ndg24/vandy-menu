@@ -2,7 +2,7 @@
 
 import SelectorButton from "./SelectorButton";
 import type { DiningHall } from "@/lib/types";
-import { QUICK_STOPS_ID } from "@/lib/menu";
+import { FAVORITES_ID, QUICK_STOPS_ID } from "@/lib/menu";
 
 interface DiningHallSelectorProps {
   halls: DiningHall[];
@@ -17,6 +17,16 @@ export default function DiningHallSelector({
 }: DiningHallSelectorProps) {
   return (
     <div className="flex gap-2 overflow-x-auto px-4 py-2">
+      <SelectorButton
+        selected={selectedHallId === FAVORITES_ID}
+        onClick={() => onSelect(FAVORITES_ID)}
+        label="FAVORITES"
+      />
+      <SelectorButton
+        selected={selectedHallId === QUICK_STOPS_ID}
+        onClick={() => onSelect(QUICK_STOPS_ID)}
+        label="QUICK STOPS"
+      />
       {halls.map((hall) => (
         <SelectorButton
           key={hall.id}
@@ -25,11 +35,6 @@ export default function DiningHallSelector({
           label={hall.name}
         />
       ))}
-      <SelectorButton
-        selected={selectedHallId === QUICK_STOPS_ID}
-        onClick={() => onSelect(QUICK_STOPS_ID)}
-        label="QUICK STOPS"
-      />
     </div>
   );
 }
