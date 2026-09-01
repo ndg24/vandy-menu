@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-25T22:44:24.776Z",
+  "scrapedAt": "2026-09-01T16:30:47.163Z",
   "halls": [
     {
       "id": "rand",
@@ -35,34 +35,31 @@
         { "weekday": "FRI", "open": "17:00", "close": "21:00" },
         { "weekday": "SAT", "open": "08:00", "close": "15:00" },
         { "weekday": "SAT", "open": "17:00", "close": "21:00" },
-        { "weekday": "SUN", "open": "08:00", "close": "11:00" }
+        { "weekday": "SUN", "open": "08:00", "close": "15:00" },
+        { "weekday": "SUN", "open": "17:00", "close": "21:00" }
       ]
     },
     {
       "id": "kissam",
       "name": "Kissam",
       "windows": [
-        { "weekday": "SUN", "open": "08:00", "close": "10:00" },
-        { "weekday": "SUN", "open": "11:00", "close": "15:00" },
-        { "weekday": "SUN", "open": "16:30", "close": "20:00" },
+        { "weekday": "SUN", "open": "08:00", "close": "11:00" },
+        { "weekday": "SUN", "open": "12:00", "close": "16:00" },
+        { "weekday": "SUN", "open": "17:00", "close": "20:00" },
         { "weekday": "MON", "open": "07:00", "close": "10:00" },
         { "weekday": "MON", "open": "11:00", "close": "15:00" },
-        { "weekday": "MON", "open": "16:30", "close": "20:00" },
+        { "weekday": "MON", "open": "17:00", "close": "20:00" },
         { "weekday": "TUE", "open": "07:00", "close": "10:00" },
         { "weekday": "TUE", "open": "11:00", "close": "15:00" },
-        { "weekday": "TUE", "open": "16:30", "close": "20:00" },
+        { "weekday": "TUE", "open": "17:00", "close": "20:00" },
         { "weekday": "WED", "open": "07:00", "close": "10:00" },
         { "weekday": "WED", "open": "11:00", "close": "15:00" },
-        { "weekday": "WED", "open": "16:30", "close": "20:00" },
+        { "weekday": "WED", "open": "17:00", "close": "20:00" },
         { "weekday": "THU", "open": "07:00", "close": "10:00" },
         { "weekday": "THU", "open": "11:00", "close": "15:00" },
-        { "weekday": "THU", "open": "16:30", "close": "20:00" },
+        { "weekday": "THU", "open": "17:00", "close": "19:00" },
         { "weekday": "FRI", "open": "07:00", "close": "10:00" },
-        { "weekday": "FRI", "open": "11:00", "close": "15:00" },
-        { "weekday": "FRI", "open": "16:30", "close": "20:00" },
-        { "weekday": "SAT", "open": "07:00", "close": "10:00" },
-        { "weekday": "SAT", "open": "11:00", "close": "15:00" },
-        { "weekday": "SAT", "open": "16:30", "close": "20:00" }
+        { "weekday": "FRI", "open": "11:00", "close": "15:00" }
       ]
     },
     {
@@ -70,7 +67,7 @@
       "name": "EBI",
       "windows": [
         { "weekday": "SUN", "open": "08:00", "close": "11:00" },
-        { "weekday": "SUN", "open": "12:00", "close": "15:00" },
+        { "weekday": "SUN", "open": "12:00", "close": "16:00" },
         { "weekday": "SUN", "open": "17:00", "close": "21:00" },
         { "weekday": "MON", "open": "11:00", "close": "15:00" },
         { "weekday": "MON", "open": "17:00", "close": "21:00" },
@@ -118,6 +115,7 @@
       "windows": [
         { "weekday": "SUN", "open": "15:00", "close": "22:00" },
         { "weekday": "MON", "open": "11:00", "close": "22:00" },
+        { "weekday": "TUE", "open": "11:00", "close": "22:00" },
         { "weekday": "WED", "open": "11:00", "close": "22:00" },
         { "weekday": "THU", "open": "11:00", "close": "14:00" },
         { "weekday": "THU", "open": "17:00", "close": "22:00" },
