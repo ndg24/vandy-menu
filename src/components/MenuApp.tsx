@@ -50,6 +50,7 @@ export default function MenuApp({
         <DaySelector days={allDays} selectedDate={selectedDate} onSelect={setSelectedDate} />
         <DiningHallSelector
           halls={halls}
+          hoursData={hoursData}
           selectedHallId={selectedHallId}
           onSelect={setSelectedHallId}
         />

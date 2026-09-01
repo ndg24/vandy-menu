@@ -5,6 +5,8 @@
   --card: #efefef;
   --border-black: #111111;
   --accent: #63ff6a;
+  --tint-open: #dcf5dc;
+  --tint-closed: #f8dcdc;
 }
 
 @theme inline {
@@ -12,6 +14,8 @@
   --color-card: var(--card);
   --color-border-black: var(--border-black);
   --color-accent: var(--accent);
+  --color-tint-open: var(--tint-open);
+  --color-tint-closed: var(--tint-closed);
   --font-display: var(--font-display);
   --font-mono: var(--font-mono);
   --radius-none: 0px;
