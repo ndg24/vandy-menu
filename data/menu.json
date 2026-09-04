@@ -820,7 +820,12 @@
             },
             {
               "period": "LUNCH",
-              "dishes": []
+              "dishes": [
+                {
+                  "station": "CHOP CHOP",
+                  "dish": "Build-Your-Own Salad Bar w/ Shredded Chicken & Steamed Shrimp"
+                }
+              ]
             },
             {
               "period": "DINNER",
@@ -881,7 +886,12 @@
             },
             {
               "period": "LUNCH",
-              "dishes": []
+              "dishes": [
+                {
+                  "station": "CHOP CHOP",
+                  "dish": "Build-Your-Own Salad Bar w/ Shredded Chicken & Steamed Shrimp"
+                }
+              ]
             }
           ]
         }
