@@ -1,4 +1,4 @@
-export type MealPeriodName = "BREAKFAST" | "LUNCH" | "DINNER";
+export type MealPeriodName = "BREAKFAST" | "LUNCH" | "DINNER" | "MAINS" | "SIDES" | "DRINKS";
 
 export interface DishCard {
   station: string;

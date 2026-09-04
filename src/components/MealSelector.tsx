@@ -4,9 +4,8 @@ import SelectorButton from "./SelectorButton";
 import type { MealPeriodName } from "@/lib/types";
 import { mealLabel } from "@/lib/menu";
 
-const MEALS: MealPeriodName[] = ["BREAKFAST", "LUNCH", "DINNER"];
-
 interface MealSelectorProps {
+  meals: MealPeriodName[];
   selectedMeal: MealPeriodName;
   onSelect: (meal: MealPeriodName) => void;
   hallId: string;
@@ -14,6 +13,7 @@ interface MealSelectorProps {
 }
 
 export default function MealSelector({
+  meals,
   selectedMeal,
   onSelect,
   hallId,
@@ -21,7 +21,7 @@ export default function MealSelector({
 }: MealSelectorProps) {
   return (
     <div className="flex gap-2 px-4 py-2">
-      {MEALS.map((meal) => (
+      {meals.map((meal) => (
         <SelectorButton
           key={meal}
           selected={meal === selectedMeal}

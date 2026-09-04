@@ -820,7 +820,12 @@
             },
             {
               "period": "LUNCH",
-              "dishes": []
+              "dishes": [
+                {
+                  "station": "CHOP CHOP",
+                  "dish": "Build-Your-Own Salad Bar w/ Shredded Chicken & Steamed Shrimp"
+                }
+              ]
             },
             {
               "period": "DINNER",
@@ -881,7 +886,12 @@
             },
             {
               "period": "LUNCH",
-              "dishes": []
+              "dishes": [
+                {
+                  "station": "CHOP CHOP",
+                  "dish": "Build-Your-Own Salad Bar w/ Shredded Chicken & Steamed Shrimp"
+                }
+              ]
             }
           ]
         }
@@ -1470,6 +1480,10 @@
                 {
                   "station": "DELI",
                   "dish": "Carmie Chicken Salad & Chicken Caesar Wrap & Pesto Turkey Sandwich & Pimento Cheese Spread & Tamago Egg Salad Sando & Tuna Salad Sandwich"
+                },
+                {
+                  "station": "SPECIALTY",
+                  "dish": "Harissa Salad Sandwich"
                 }
               ]
             }
@@ -1550,6 +1564,10 @@
                 {
                   "station": "DELI",
                   "dish": "Carmie Chicken Salad & Chicken Caesar Wrap & Pesto Turkey Sandwich & Pimento Cheese Spread & Tamago Egg Salad Sando & Tuna Salad Sandwich"
+                },
+                {
+                  "station": "SPECIALTY",
+                  "dish": "Harissa Salad Sandwich"
                 }
               ]
             }
@@ -1560,7 +1578,250 @@
     {
       "id": "pub",
       "name": "Pub",
-      "days": []
+      "days": [
+        {
+          "date": "2026-09-01",
+          "weekday": "TUE",
+          "meals": [
+            {
+              "period": "MAINS",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Beyond Burger Patty & Chicken Tenders & Fried Cod w/ Tartar Sauce & Loaded Fries & Philly Cheesesteak & Seasoned Wings"
+                }
+              ]
+            },
+            {
+              "period": "SIDES",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Cauliflower \"Wings\" & Pretzel Sticks & Straight Cut Fries"
+                },
+                {
+                  "station": "SALADS",
+                  "dish": "House Garden Salad"
+                }
+              ]
+            },
+            {
+              "period": "DRINKS",
+              "dishes": [
+                {
+                  "station": "MILKSHAKES",
+                  "dish": "Chocolate Milkshake & Strawberry Milkshake & Vanilla Milkshake"
+                },
+                {
+                  "station": "BEVERAGES",
+                  "dish": "Apple Juice & Cranberry Juice & Lemon Lime Gatorade & Orange Gatorade & Orange Juice & Sobe Yumberry Pomegranate & Tropicana Lemonade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-02",
+          "weekday": "WED",
+          "meals": [
+            {
+              "period": "MAINS",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Beyond Burger Patty & Chicken Sandwich & Chicken Tenders & Fried Cod w/ Tartar Sauce & Loaded Fries & Philly Cheesesteak & Pub Burger & Seasoned Wings"
+                }
+              ]
+            },
+            {
+              "period": "SIDES",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Cauliflower \"Wings\" & Pretzel Sticks & Straight Cut Fries"
+                },
+                {
+                  "station": "SALADS",
+                  "dish": "House Garden Salad"
+                }
+              ]
+            },
+            {
+              "period": "DRINKS",
+              "dishes": [
+                {
+                  "station": "MILKSHAKES",
+                  "dish": "Chocolate Milkshake & Strawberry Milkshake & Vanilla Milkshake"
+                },
+                {
+                  "station": "BEVERAGES",
+                  "dish": "Apple Juice & Cranberry Juice & Lemon Lime Gatorade & Orange Gatorade & Orange Juice & Sobe Yumberry Pomegranate & Tropicana Lemonade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-03",
+          "weekday": "THU",
+          "meals": [
+            {
+              "period": "MAINS",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Beyond Burger Patty & Chicken Sandwich & Chicken Tenders & Fried Cod w/ Tartar Sauce & Loaded Fries & Philly Cheesesteak & Pub Burger & Seasoned Wings"
+                }
+              ]
+            },
+            {
+              "period": "SIDES",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Cauliflower \"Wings\" & Pretzel Sticks & Straight Cut Fries"
+                },
+                {
+                  "station": "SALADS",
+                  "dish": "House Garden Salad"
+                }
+              ]
+            },
+            {
+              "period": "DRINKS",
+              "dishes": [
+                {
+                  "station": "MILKSHAKES",
+                  "dish": "Chocolate Milkshake & Strawberry Milkshake & Vanilla Milkshake"
+                },
+                {
+                  "station": "BEVERAGES",
+                  "dish": "Apple Juice & Cranberry Juice & Lemon Lime Gatorade & Orange Gatorade & Orange Juice & Sobe Yumberry Pomegranate & Tropicana Lemonade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-04",
+          "weekday": "FRI",
+          "meals": [
+            {
+              "period": "MAINS",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Beyond Burger Patty & Chicken Sandwich & Chicken Tenders & Fried Cod w/ Tartar Sauce & Loaded Fries & Philly Cheesesteak & Pub Burger & Seasoned Wings"
+                }
+              ]
+            },
+            {
+              "period": "SIDES",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Cauliflower \"Wings\" & Pretzel Sticks & Straight Cut Fries"
+                },
+                {
+                  "station": "SALADS",
+                  "dish": "House Garden Salad"
+                }
+              ]
+            },
+            {
+              "period": "DRINKS",
+              "dishes": [
+                {
+                  "station": "MILKSHAKES",
+                  "dish": "Chocolate Milkshake & Strawberry Milkshake & Vanilla Milkshake"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-06",
+          "weekday": "SUN",
+          "meals": [
+            {
+              "period": "MAINS",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Beyond Burger Patty & Chicken Tenders & Fried Cod w/ Tartar Sauce & Loaded Fries & Philly Cheesesteak & Seasoned Wings"
+                }
+              ]
+            },
+            {
+              "period": "SIDES",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Cauliflower \"Wings\" & Pretzel Sticks & Straight Cut Fries"
+                },
+                {
+                  "station": "SALADS",
+                  "dish": "House Garden Salad"
+                }
+              ]
+            },
+            {
+              "period": "DRINKS",
+              "dishes": [
+                {
+                  "station": "MILKSHAKES",
+                  "dish": "Chocolate Milkshake & Strawberry Milkshake & Vanilla Milkshake"
+                },
+                {
+                  "station": "BEVERAGES",
+                  "dish": "Apple Juice & Cranberry Juice & Lemon Lime Gatorade & Orange Gatorade & Orange Juice & Sobe Yumberry Pomegranate & Tropicana Lemonade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-09-07",
+          "weekday": "MON",
+          "meals": [
+            {
+              "period": "MAINS",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Beyond Burger Patty & Chicken Tenders & Fried Cod w/ Tartar Sauce & Loaded Fries & Philly Cheesesteak & Seasoned Wings"
+                }
+              ]
+            },
+            {
+              "period": "SIDES",
+              "dishes": [
+                {
+                  "station": "GRILL",
+                  "dish": "Pretzel Sticks & Straight Cut Fries"
+                },
+                {
+                  "station": "SALADS",
+                  "dish": "House Garden Salad"
+                }
+              ]
+            },
+            {
+              "period": "DRINKS",
+              "dishes": [
+                {
+                  "station": "MILKSHAKES",
+                  "dish": "Chocolate Milkshake & Strawberry Milkshake & Vanilla Milkshake"
+                },
+                {
+                  "station": "BEVERAGES",
+                  "dish": "Apple Juice & Cranberry Juice & Lemon Lime Gatorade & Orange Gatorade & Orange Juice & Sobe Yumberry Pomegranate & Tropicana Lemonade"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "zeppos",

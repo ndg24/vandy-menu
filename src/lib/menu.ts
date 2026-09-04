@@ -36,6 +36,18 @@ export function getDishes(hall: DiningHall, date: string, period: MealPeriodName
   return day?.meals.find((m) => m.period === period)?.dishes ?? [];
 }
 
+// Most halls run Breakfast/Lunch/Dinner, but a hall's meal-period tab set
+// isn't guaranteed to match that — Pub's site page now runs a single
+// "Daily Offerings" catalog restructured here into Mains/Sides/Drinks.
+const DEFAULT_MEAL_PERIODS: MealPeriodName[] = ["BREAKFAST", "LUNCH", "DINNER"];
+const HALL_MEAL_PERIODS: Record<string, MealPeriodName[]> = {
+  pub: ["MAINS", "SIDES", "DRINKS"],
+};
+
+export function mealPeriodsForHall(hallId: string): MealPeriodName[] {
+  return HALL_MEAL_PERIODS[hallId] ?? DEFAULT_MEAL_PERIODS;
+}
+
 // Roth and Carmichael don't run a separate Breakfast on Sundays — the site
 // publishes a single "Brunch" service instead, which we store under the
 // existing BREAKFAST slot and relabel here for display.
