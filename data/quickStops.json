@@ -1,6 +1,17 @@
 {
-  "scrapedAt": "2026-08-26T15:00:00.000Z",
+  "scrapedAt": "2026-09-07T22:05:00.000Z",
   "locations": [
+    {
+      "id": "west-end-bagel",
+      "name": "West End Bagel Co",
+      "windows": [
+        { "weekday": "MON", "open": "08:00", "close": "15:00" },
+        { "weekday": "TUE", "open": "08:00", "close": "15:00" },
+        { "weekday": "WED", "open": "08:00", "close": "15:00" },
+        { "weekday": "THU", "open": "08:00", "close": "15:00" },
+        { "weekday": "FRI", "open": "08:00", "close": "15:00" }
+      ]
+    },
     {
       "id": "commons-munchie",
       "name": "Commons Munchie",
