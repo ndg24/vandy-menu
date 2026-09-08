@@ -10,7 +10,13 @@ import HallStatusBadge from "./HallStatusBadge";
 import QuickStopsSection from "./QuickStopsSection";
 import FavoritesSection from "./FavoritesSection";
 import type { HoursData, MenuData, QuickStopsData } from "@/lib/types";
-import { FAVORITES_ID, QUICK_STOPS_ID, getDishes, orderedHalls } from "@/lib/menu";
+import {
+  FAVORITES_ID,
+  QUICK_STOPS_ID,
+  getDishes,
+  mealPeriodsForHall,
+  orderedHalls,
+} from "@/lib/menu";
 import { getHallHours } from "@/lib/hours";
 import { useMenuSelection } from "@/state/useMenuSelection";
 import { useFavorites } from "@/state/useFavorites";
@@ -39,7 +45,9 @@ export default function MenuApp({
 
   const isQuickStops = selectedHallId === QUICK_STOPS_ID;
   const isFavorites = selectedHallId === FAVORITES_ID;
-  const dishes = selectedHall ? getDishes(selectedHall, selectedDate, selectedMeal) : [];
+  const validMeals = mealPeriodsForHall(selectedHallId);
+  const effectiveMeal = validMeals.includes(selectedMeal) ? selectedMeal : validMeals[0];
+  const dishes = selectedHall ? getDishes(selectedHall, selectedDate, effectiveMeal) : [];
   const selectedHallHours = getHallHours(hoursData, selectedHallId);
   const selectedWeekday = allDays.find((d) => d.date === selectedDate)?.weekday ?? "";
 
@@ -56,7 +64,8 @@ export default function MenuApp({
         />
         {!isQuickStops && !isFavorites && (
           <MealSelector
-            selectedMeal={selectedMeal}
+            meals={validMeals}
+            selectedMeal={effectiveMeal}
             onSelect={setSelectedMeal}
             hallId={selectedHallId}
             weekday={selectedWeekday}
@@ -76,7 +85,7 @@ export default function MenuApp({
           <HallStatusBadge hall={selectedHallHours} />
           <main className="flex-1">
             <MenuSection
-              period={selectedMeal}
+              period={effectiveMeal}
               hallId={selectedHallId}
               weekday={selectedWeekday}
               dishes={dishes}
