@@ -56,6 +56,7 @@
       "name": "Local Java Cafe at Alumni",
       "windows": [
         { "weekday": "MON", "open": "07:00", "close": "16:00" },
+        { "weekday": "TUE", "open": "07:00", "close": "16:00" },
         { "weekday": "WED", "open": "07:00", "close": "16:00" },
         { "weekday": "THU", "open": "07:00", "close": "16:00" },
         { "weekday": "FRI", "open": "07:00", "close": "14:00" },
