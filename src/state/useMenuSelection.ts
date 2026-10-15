@@ -20,12 +20,13 @@ export function useMenuSelection(data: MenuData) {
   // at build time; the client fills it in right after hydration.
   const nowMs = useNowMs();
 
+  const today = nowMs === null ? null : todayIso(new Date(nowMs));
+
   const defaultDate = useMemo(() => {
-    if (nowMs === null) return "";
-    const today = todayIso(new Date(nowMs));
+    if (today === null) return "";
     if (allDays.some((d) => d.date === today)) return today;
     return allDays[0]?.date ?? today;
-  }, [allDays, nowMs]);
+  }, [allDays, today]);
 
   const defaultMeal: MealPeriodName =
     nowMs === null ? "BREAKFAST" : currentMealPeriod(new Date(nowMs));
@@ -39,6 +40,8 @@ export function useMenuSelection(data: MenuData) {
   const selectedHall = getHall(data, selectedHallId);
 
   return {
+    ready: today !== null,
+    today,
     allDays,
     selectedHallId,
     setSelectedHallId,

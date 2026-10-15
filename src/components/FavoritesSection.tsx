@@ -1,16 +1,22 @@
 import type { MenuData } from "@/lib/types";
-import { findFavoriteOccurrences, groupOccurrencesByDish } from "@/lib/favorites";
+import {
+  type FavoriteOccurrence,
+  findFavoriteOccurrences,
+  groupOccurrencesByDish,
+} from "@/lib/favorites";
 
 interface FavoritesSectionProps {
   data: MenuData;
   favorites: Set<string>;
   onToggleFavorite: (dish: string) => void;
+  onSelectOccurrence: (occurrence: FavoriteOccurrence) => void;
 }
 
 export default function FavoritesSection({
   data,
   favorites,
   onToggleFavorite,
+  onSelectOccurrence,
 }: FavoritesSectionProps) {
   const occurrences = findFavoriteOccurrences(data, favorites);
   const grouped = groupOccurrencesByDish(occurrences);
@@ -50,7 +56,13 @@ export default function FavoritesSection({
                   <ul className="mt-1 flex flex-col gap-0.5 font-mono text-xs text-neutral-600">
                     {occs.map((o, i) => (
                       <li key={i}>
-                        {o.weekday} {o.hallName.toUpperCase()} {o.period} — {o.station}
+                        <button
+                          type="button"
+                          onClick={() => onSelectOccurrence(o)}
+                          className="text-left underline decoration-dotted underline-offset-2 active:text-black"
+                        >
+                          {o.weekday} {o.hallName.toUpperCase()} {o.period} — {o.station} →
+                        </button>
                       </li>
                     ))}
                   </ul>

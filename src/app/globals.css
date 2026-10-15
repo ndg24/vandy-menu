@@ -9,6 +9,10 @@
   --tint-closed: #f8dcdc;
 }
 
+:root[data-accent="pink"] {
+  --accent: #ffadd6;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-card: var(--card);
@@ -38,5 +42,10 @@ body {
 @layer components {
   .panel {
     @apply border-2 border-border-black bg-card;
+  }
+
+  /* The one exception to the square-corners rule above (e.g. the accent switch). */
+  .round {
+    border-radius: 9999px !important;
   }
 }

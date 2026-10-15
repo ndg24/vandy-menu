@@ -10,10 +10,11 @@ interface DayOption {
 interface DaySelectorProps {
   days: DayOption[];
   selectedDate: string;
+  today: string | null;
   onSelect: (date: string) => void;
 }
 
-export default function DaySelector({ days, selectedDate, onSelect }: DaySelectorProps) {
+export default function DaySelector({ days, selectedDate, today, onSelect }: DaySelectorProps) {
   if (days.length === 0) return null;
 
   return (
@@ -30,6 +31,13 @@ export default function DaySelector({ days, selectedDate, onSelect }: DaySelecto
               <>
                 <span className="block text-xs">{day.weekday}</span>
                 <span className="block font-display text-lg">{dayNum}</span>
+                {/* Today marker; the invisible bar on other days keeps heights equal. */}
+                <span
+                  aria-hidden
+                  className={`mt-0.5 block h-1 w-4 ${
+                    day.date === today ? "bg-border-black" : "bg-transparent"
+                  }`}
+                />
               </>
             }
           />

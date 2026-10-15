@@ -9,7 +9,8 @@ import MenuSection from "./MenuSection";
 import HallStatusBadge from "./HallStatusBadge";
 import QuickStopsSection from "./QuickStopsSection";
 import FavoritesSection from "./FavoritesSection";
-import type { HoursData, MenuData, QuickStopsData } from "@/lib/types";
+import type { HoursData, MealPeriodName, MenuData, QuickStopsData } from "@/lib/types";
+import type { FavoriteOccurrence } from "@/lib/favorites";
 import {
   FAVORITES_ID,
   QUICK_STOPS_ID,
@@ -32,6 +33,8 @@ export default function MenuApp({
 }) {
   const halls = orderedHalls(data);
   const {
+    ready,
+    today,
     allDays,
     selectedHallId,
     setSelectedHallId,
@@ -42,6 +45,50 @@ export default function MenuApp({
     selectedHall,
   } = useMenuSelection(data);
   const { favorites, toggleFavorite } = useFavorites();
+
+  // Switching what's shown should start the new list from the top, not
+  // wherever the previous (possibly longer) list was scrolled to.
+  const scrollToTop = () => window.scrollTo({ top: 0 });
+  const selectDate = (date: string) => {
+    setSelectedDate(date);
+    scrollToTop();
+  };
+  const selectHall = (hallId: string) => {
+    setSelectedHallId(hallId);
+    scrollToTop();
+  };
+  const selectMeal = (meal: MealPeriodName) => {
+    setSelectedMeal(meal);
+    scrollToTop();
+  };
+  const selectOccurrence = (o: FavoriteOccurrence) => {
+    setSelectedHallId(o.hallId);
+    setSelectedDate(o.date);
+    setSelectedMeal(o.period);
+    scrollToTop();
+  };
+
+  // The page is prerendered without knowing today's date; show a loading
+  // screen until the client fills it in rather than an empty menu.
+  if (!ready) {
+    return (
+      <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col border-x-0 sm:border-x-2 border-border-black">
+        <Header lastSyncedAt={data.scrapedAt} />
+        <main className="flex flex-1 flex-col items-center justify-center gap-3 py-24">
+          <div className="font-display text-lg tracking-widest">LOADING</div>
+          <div className="flex gap-1.5" aria-hidden>
+            {[0, 1, 2].map((i) => (
+              <span
+                key={i}
+                className="block h-3 w-3 animate-pulse border-2 border-border-black bg-accent"
+                style={{ animationDelay: `${i * 200}ms` }}
+              />
+            ))}
+          </div>
+        </main>
+      </div>
+    );
+  }
 
   const isQuickStops = selectedHallId === QUICK_STOPS_ID;
   const isFavorites = selectedHallId === FAVORITES_ID;
@@ -55,18 +102,23 @@ export default function MenuApp({
     <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col border-x-0 sm:border-x-2 border-border-black">
       <Header lastSyncedAt={data.scrapedAt} />
       <StickySelectorBar>
-        <DaySelector days={allDays} selectedDate={selectedDate} onSelect={setSelectedDate} />
+        <DaySelector
+          days={allDays}
+          selectedDate={selectedDate}
+          today={today}
+          onSelect={selectDate}
+        />
         <DiningHallSelector
           halls={halls}
           hoursData={hoursData}
           selectedHallId={selectedHallId}
-          onSelect={setSelectedHallId}
+          onSelect={selectHall}
         />
         {!isQuickStops && !isFavorites && (
           <MealSelector
             meals={validMeals}
             selectedMeal={effectiveMeal}
-            onSelect={setSelectedMeal}
+            onSelect={selectMeal}
             hallId={selectedHallId}
             weekday={selectedWeekday}
           />
@@ -74,7 +126,12 @@ export default function MenuApp({
       </StickySelectorBar>
       {isFavorites ? (
         <main className="flex-1">
-          <FavoritesSection data={data} favorites={favorites} onToggleFavorite={toggleFavorite} />
+          <FavoritesSection
+            data={data}
+            favorites={favorites}
+            onToggleFavorite={toggleFavorite}
+            onSelectOccurrence={selectOccurrence}
+          />
         </main>
       ) : isQuickStops ? (
         <main className="flex-1">
