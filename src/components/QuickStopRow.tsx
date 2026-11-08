@@ -19,6 +19,7 @@ export default function QuickStopRow({ location, now }: QuickStopRowProps) {
       <button
         type="button"
         onClick={() => setExpanded((e) => !e)}
+        aria-expanded={expanded}
         className="panel flex w-full items-center justify-between gap-2 px-3 py-2 text-left"
       >
         <span className="font-mono text-sm">{location.name}</span>

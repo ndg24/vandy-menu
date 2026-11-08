@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import SelectorButton from "./SelectorButton";
 import type { DiningHall, HoursData } from "@/lib/types";
 import { FAVORITES_ID, QUICK_STOPS_ID } from "@/lib/menu";
@@ -21,9 +22,17 @@ export default function DiningHallSelector({
 }: DiningHallSelectorProps) {
   const nowMs = useNowMs();
   const now = nowMs === null ? null : new Date(nowMs);
+  const rowRef = useRef<HTMLDivElement>(null);
+
+  // Keep the selected hall visible, e.g. after jumping to it from Favorites.
+  useEffect(() => {
+    rowRef.current
+      ?.querySelector('[aria-pressed="true"]')
+      ?.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
+  }, [selectedHallId]);
 
   return (
-    <div className="flex gap-2 overflow-x-auto px-4 py-2">
+    <div ref={rowRef} className="flex gap-2 overflow-x-auto px-4 py-2">
       <SelectorButton
         selected={selectedHallId === FAVORITES_ID}
         onClick={() => onSelect(FAVORITES_ID)}

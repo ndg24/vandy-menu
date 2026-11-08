@@ -39,6 +39,12 @@ body {
   background: var(--background);
 }
 
+/* Hard-edged keyboard focus ring that fits the square, bordered look. */
+:focus-visible {
+  outline: 3px solid var(--border-black);
+  outline-offset: 2px;
+}
+
 @layer components {
   .panel {
     @apply border-2 border-border-black bg-card;

@@ -80,7 +80,7 @@ export default function MenuApp({
             {[0, 1, 2].map((i) => (
               <span
                 key={i}
-                className="block h-3 w-3 animate-pulse border-2 border-border-black bg-accent"
+                className="block h-3 w-3 motion-safe:animate-pulse border-2 border-border-black bg-accent"
                 style={{ animationDelay: `${i * 200}ms` }}
               />
             ))}

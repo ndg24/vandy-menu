@@ -1,4 +1,5 @@
 import type { DayMenu, DiningHall, MealPeriodName, MenuData } from "./types";
+import { TIME_ZONE } from "./hours";
 
 export const HALL_ORDER = [
   "rand",
@@ -60,16 +61,23 @@ export function mealLabel(period: MealPeriodName, hallId: string, weekday: strin
   return period;
 }
 
+// Campus wall-clock, so "today" and the default meal match the hours logic
+// (which is Chicago-based) even if the device is set to another time zone.
 export function currentMealPeriod(now: Date = new Date()): MealPeriodName {
-  const hour = now.getHours();
+  const hour = Number(
+    new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, hour: "numeric", hourCycle: "h23" }).format(now),
+  );
   if (hour < 11) return "BREAKFAST";
   if (hour < 16) return "LUNCH";
   return "DINNER";
 }
 
 export function todayIso(now: Date = new Date()): string {
-  const y = now.getFullYear();
-  const m = String(now.getMonth() + 1).padStart(2, "0");
-  const d = String(now.getDate()).padStart(2, "0");
-  return `${y}-${m}-${d}`;
+  // en-CA formats as YYYY-MM-DD.
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(now);
 }

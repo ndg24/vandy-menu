@@ -1,4 +1,5 @@
 import AccentToggle from "./AccentToggle";
+import { TIME_ZONE } from "@/lib/hours";
 
 interface HeaderProps {
   lastSyncedAt?: string;
@@ -6,7 +7,9 @@ interface HeaderProps {
 
 export default function Header({ lastSyncedAt }: HeaderProps) {
   const syncedLabel = lastSyncedAt
-    ? new Date(lastSyncedAt).toLocaleDateString(undefined, {
+    ? // Fixed locale + zone so the server-rendered label matches the client's.
+      new Date(lastSyncedAt).toLocaleDateString("en-US", {
+        timeZone: TIME_ZONE,
         month: "short",
         day: "numeric",
       })

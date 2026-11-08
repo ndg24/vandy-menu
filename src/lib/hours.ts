@@ -1,6 +1,6 @@
 import type { HallHours, HoursData, Weekday } from "./types";
 
-const TIME_ZONE = "America/Chicago";
+export const TIME_ZONE ="America/Chicago";
 
 export const WEEKDAYS: Weekday[] = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 

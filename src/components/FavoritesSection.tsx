@@ -38,12 +38,12 @@ export default function FavoritesSection({
             return (
               <div key={dish} className="panel px-3 py-2">
                 <div className="flex items-start justify-between gap-2">
-                  <div className="font-mono text-base font-semibold leading-snug">{dish}</div>
+                  <div className="min-w-0 font-mono text-base font-semibold leading-snug text-pretty">{dish}</div>
                   <button
                     type="button"
                     onClick={() => onToggleFavorite(dish)}
-                    aria-label="Remove favorite"
-                    className="shrink-0 border-2 border-border-black bg-accent px-2 py-1 font-mono text-sm text-black"
+                    aria-label={`Remove ${dish} from favorites`}
+                    className="flex size-11 shrink-0 items-center justify-center border-2 border-border-black bg-accent font-mono text-lg text-black transition-[scale] duration-150 ease-out active:scale-[0.96]"
                   >
                     ★
                   </button>

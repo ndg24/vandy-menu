@@ -27,9 +27,12 @@ export default function SelectorButton({
     <button
       type="button"
       onClick={onClick}
-      className={`border-2 border-border-black px-3 py-2 font-mono text-sm uppercase tracking-wide transition-colors duration-150 ${background} ${className}`}
+      aria-pressed={selected}
+      className={`border-2 border-border-black px-3 py-2 font-mono text-sm uppercase tracking-wide transition-[background-color,color,scale] duration-150 ease-out active:scale-[0.96] ${background} ${className}`}
     >
       {label}
+      {/* Open/closed is otherwise shown by tint color alone. */}
+      {tint && <span className="sr-only"> ({tint})</span>}
     </button>
   );
 }

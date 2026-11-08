@@ -23,6 +23,7 @@ export default function HallStatusBadge({ hall }: HallStatusBadgeProps) {
       <button
         type="button"
         onClick={() => setExpanded((e) => !e)}
+        aria-expanded={expanded}
         className={`border-2 border-border-black px-2 py-1 font-mono text-xs uppercase tracking-wide ${
           open ? "bg-accent text-black" : "bg-border-black text-card"
         }`}
