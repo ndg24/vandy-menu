@@ -1,5 +1,5 @@
-import type { DayMenu, DiningHall, MealPeriodName, MenuData } from "./types";
-import { TIME_ZONE } from "./hours";
+import type { DayMenu, DiningHall, HoursData, MealPeriodName, MenuData } from "./types";
+import { TIME_ZONE, getHallHours, isOpenNow } from "./hours";
 
 export const HALL_ORDER = [
   "rand",
@@ -22,6 +22,23 @@ export function orderedHalls(data: MenuData): DiningHall[] {
   return HALL_ORDER.map((id) => data.halls.find((h) => h.id === id)).filter(
     (h): h is DiningHall => h !== undefined,
   );
+}
+
+// Opening hall: the last-viewed hall if it's open now, else the first open
+// hall, else the last-viewed hall, else the first hall.
+export function pickDefaultHall(
+  hoursData: HoursData,
+  hallIds: string[],
+  lastHallId: string | null,
+  now: Date,
+): string {
+  const last = lastHallId && hallIds.includes(lastHallId) ? lastHallId : null;
+  const isOpen = (id: string) => {
+    const hours = getHallHours(hoursData, id);
+    return hours !== undefined && isOpenNow(hours, now);
+  };
+  if (last && isOpen(last)) return last;
+  return hallIds.find(isOpen) ?? last ?? hallIds[0] ?? DEFAULT_HALL_ID;
 }
 
 export function getHall(data: MenuData, hallId: string): DiningHall | undefined {

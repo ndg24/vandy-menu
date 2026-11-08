@@ -78,6 +78,13 @@ export function formatTime(time: string): string {
   return m === 0 ? `${hour12}${period}` : `${hour12}:${String(m).padStart(2, "0")}${period}`;
 }
 
+// "7AM–3PM, 4PM–8PM", or "CLOSED" when the hall has no windows that day.
+export function formatDayHours(hall: HallHours, weekday: Weekday): string {
+  const windows = hall.windows.filter((w) => w.weekday === weekday);
+  if (windows.length === 0) return "CLOSED";
+  return windows.map((w) => `${formatTime(w.open)}–${formatTime(w.close)}`).join(", ");
+}
+
 export interface StatusLabel {
   open: boolean;
   detail: string | null;

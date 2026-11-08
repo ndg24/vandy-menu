@@ -9,7 +9,7 @@ import MenuSection from "./MenuSection";
 import HallStatusBadge from "./HallStatusBadge";
 import QuickStopsSection from "./QuickStopsSection";
 import FavoritesSection from "./FavoritesSection";
-import type { HoursData, MealPeriodName, MenuData, QuickStopsData } from "@/lib/types";
+import type { HoursData, MealPeriodName, MenuData, QuickStopsData, Weekday } from "@/lib/types";
 import type { FavoriteOccurrence } from "@/lib/favorites";
 import {
   FAVORITES_ID,
@@ -43,7 +43,7 @@ export default function MenuApp({
     selectedMeal,
     setSelectedMeal,
     selectedHall,
-  } = useMenuSelection(data);
+  } = useMenuSelection(data, hoursData);
   const { favorites, toggleFavorite } = useFavorites();
 
   // Switching what's shown should start the new list from the top, not
@@ -97,6 +97,7 @@ export default function MenuApp({
   const dishes = selectedHall ? getDishes(selectedHall, selectedDate, effectiveMeal) : [];
   const selectedHallHours = getHallHours(hoursData, selectedHallId);
   const selectedWeekday = allDays.find((d) => d.date === selectedDate)?.weekday ?? "";
+  const isToday = selectedDate === today;
 
   return (
     <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col border-x-0 sm:border-x-2 border-border-black">
@@ -113,6 +114,7 @@ export default function MenuApp({
           hoursData={hoursData}
           selectedHallId={selectedHallId}
           onSelect={selectHall}
+          isToday={isToday}
         />
         {!isQuickStops && !isFavorites && (
           <MealSelector
@@ -139,7 +141,11 @@ export default function MenuApp({
         </main>
       ) : (
         <>
-          <HallStatusBadge hall={selectedHallHours} />
+          <HallStatusBadge
+            hall={selectedHallHours}
+            weekday={selectedWeekday as Weekday}
+            isToday={isToday}
+          />
           <main className="flex-1">
             <MenuSection
               period={effectiveMeal}

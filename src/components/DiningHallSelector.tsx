@@ -12,6 +12,8 @@ interface DiningHallSelectorProps {
   hoursData: HoursData;
   selectedHallId: string;
   onSelect: (hallId: string) => void;
+  // Open/closed tints reflect the current time, so they're only shown on today.
+  isToday: boolean;
 }
 
 export default function DiningHallSelector({
@@ -19,6 +21,7 @@ export default function DiningHallSelector({
   hoursData,
   selectedHallId,
   onSelect,
+  isToday,
 }: DiningHallSelectorProps) {
   const nowMs = useNowMs();
   const now = nowMs === null ? null : new Date(nowMs);
@@ -45,7 +48,7 @@ export default function DiningHallSelector({
       />
       {halls.map((hall) => {
         const hallHours = getHallHours(hoursData, hall.id);
-        const tint = now && hallHours ? (isOpenNow(hallHours, now) ? "open" : "closed") : undefined;
+        const tint = isToday && now && hallHours ? (isOpenNow(hallHours, now) ? "open" : "closed") : undefined;
         return (
           <SelectorButton
             key={hall.id}
